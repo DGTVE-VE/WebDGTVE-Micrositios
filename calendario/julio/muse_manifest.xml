@@ -1,0 +1,90 @@
+<manifest alg="2" build="5" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="417434784"/>
+    <file name="index.css" crc="3882006529" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3865766194" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="webpro.js" crc="3903299128" ref="index"/>
+    <file name="musewpslideshow.js" crc="138381373" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4250894771" ref="index"/>
+    <file name="touchswipe.js" crc="4156838003" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="1823 escudo nacional.jpg" crc="306208111" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="1825 luis gonzaga ortiz.jpg" crc="429551519" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="03_1883.jpg" crc="261094276" ref="index"/>
+    <file name="03_1955.jpg" crc="251192563" ref="index"/>
+    <file name="04_1815.jpg" crc="45832942" ref="index"/>
+    <file name="04_1952.jpg" crc="490701467" ref="index"/>
+    <file name="02_1911.jpg" crc="430988518" ref="index"/>
+    <file name="02_1915.jpg" crc="13072275" ref="index"/>
+    <file name="05_1858.jpg" crc="451696439" ref="index"/>
+    <file name="05_1889.jpg" crc="4171330118" ref="index"/>
+    <file name="01_1951.jpg" crc="331080426" ref="index"/>
+    <file name="01_1987.jpg" crc="3948849650" ref="index"/>
+    <file name="06_1812.jpg" crc="3988849135" ref="index"/>
+    <file name="06_1824.jpg" crc="4208731895" ref="index"/>
+    <file name="06_1840.jpg" crc="420659142" ref="index"/>
+    <file name="06_1907.jpg" crc="4071552133" ref="index"/>
+    <file name="08_1563.jpg" crc="4261043960" ref="index"/>
+    <file name="08_1943.jpg" crc="505081021" ref="index"/>
+    <file name="11_1903.jpg" crc="3797208493" ref="index"/>
+    <file name="011.jpg" crc="98473398" ref="index"/>
+    <file name="07_1865.jpg" crc="169383757" ref="index"/>
+    <file name="07_1929.jpg" crc="49313604" ref="index"/>
+    <file name="09_1894.jpg" crc="436584958" ref="index"/>
+    <file name="09_1922.jpg" crc="164625075" ref="index"/>
+    <file name="12_1859.jpg" crc="497151974" ref="index"/>
+    <file name="12_1904.jpg" crc="4085514917" ref="index"/>
+    <file name="012.jpg" crc="290041017" ref="index"/>
+    <file name="10_1863.jpg" crc="247638874" ref="index"/>
+    <file name="10_1879.jpg" crc="433923551" ref="index"/>
+    <file name="16_1826.jpg" crc="174792707" ref="index"/>
+    <file name="16_1894.jpg" crc="158879269" ref="index"/>
+    <file name="016.jpg" crc="3920688968" ref="index"/>
+    <file name="19_1809.jpg" crc="3921333583" ref="index"/>
+    <file name="19_1824.jpg" crc="4278925509" ref="index"/>
+    <file name="19_1872.jpg" crc="288591797" ref="index"/>
+    <file name="15_1914.jpg" crc="491981888" ref="index"/>
+    <file name="15_1979.jpg" crc="170524412" ref="index"/>
+    <file name="17_1876.jpg" crc="4211867132" ref="index"/>
+    <file name="17_1928.jpg" crc="362863042" ref="index"/>
+    <file name="18_1872.jpg" crc="3833596358" ref="index"/>
+    <file name="18_1908.jpg" crc="3900275558" ref="index"/>
+    <file name="20_1923.jpg" crc="4279367079" ref="index"/>
+    <file name="20_2004.jpg" crc="4025767571" ref="index"/>
+    <file name="020.jpg" crc="414021735" ref="index"/>
+    <file name="23_1820.jpg" crc="188380369" ref="index"/>
+    <file name="23_1859.jpg" crc="4009423809" ref="index"/>
+    <file name="25_1863.jpg" crc="12062166" ref="index"/>
+    <file name="25_1921.jpg" crc="3759691239" ref="index"/>
+    <file name="25_1935.jpg" crc="3797020683" ref="index"/>
+    <file name="21_1821.jpg" crc="19302454" ref="index"/>
+    <file name="21_1822.jpg" crc="493522647" ref="index"/>
+    <file name="21_1899.jpg" crc="119056645" ref="index"/>
+    <file name="24_1888.jpg" crc="263236423" ref="index"/>
+    <file name="24_1912.jpg" crc="4042738094" ref="index"/>
+    <file name="24_2008.jpg" crc="4084568949" ref="index"/>
+    <file name="26_1875.jpg" crc="4277867270" ref="index"/>
+    <file name="26_1929.jpg" crc="4158135251" ref="index"/>
+    <file name="26_1984.jpg" crc="200532752" ref="index"/>
+    <file name="30_1811.jpg" crc="4015204030" ref="index"/>
+    <file name="030.jpg" crc="3764850927" ref="index"/>
+    <file name="29_1920.jpg" crc="4087125340" ref="index"/>
+    <file name="29_1936.jpg" crc="4132770936" ref="index"/>
+    <file name="julio_02.jpg" crc="504475649" ref="index"/>
+    <file name="31_1773.jpg" crc="4197400928" ref="index"/>
+    <file name="28_1766.jpg" crc="3969212798" ref="index"/>
+    <file name="27_1855.jpg" crc="364513082" ref="index"/>
+    <file name="14_1850.jpg" crc="485615731" ref="index"/>
+    <file name="13_1954.jpg" crc="56857448" ref="index"/>
+    <file name="22_1800.jpg" crc="233216624" ref="index"/>
+  </folder>
+  <file name="index.html" crc="14416497" mt="1403567604912" redirect="true"/>
+</manifest>

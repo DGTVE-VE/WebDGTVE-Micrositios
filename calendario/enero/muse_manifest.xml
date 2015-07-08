@@ -1,0 +1,126 @@
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1419878346282">
+  <folder name="css">
+    <file name="site_global.css" crc="365011649"/>
+    <file name="index.css" crc="4188932009" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index"/>
+    <file name="museutils.js" crc="3777594392" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="webpro.js" crc="474087315" ref="index"/>
+    <file name="musewpslideshow.js" crc="274584885" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="170414611" ref="index"/>
+    <file name="touchswipe.js" crc="100683906" ref="index"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="enero15.jpg" crc="306170188" ref="index"/>
+    <file name="01_1772_.jpg" crc="440020286" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="01_1873.jpg" crc="165407572" ref="index"/>
+    <file name="01_1772_45x45.jpg" crc="84585803" ref="index"/>
+    <file name="01_187345x45.jpg" crc="4169928542" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="02_1871.jpg" crc="113153922" ref="index"/>
+    <file name="02_1902.jpg" crc="3944517270" ref="index"/>
+    <file name="02_1915.jpg" crc="4114359776" ref="index"/>
+    <file name="02_187145x45.jpg" crc="134949219" ref="index"/>
+    <file name="02_190245x45.jpg" crc="4268770754" ref="index"/>
+    <file name="02_191545x45.jpg" crc="320089252" ref="index"/>
+    <file name="03_1782.jpg" crc="4197463090" ref="index"/>
+    <file name="03_1924.jpg" crc="200786982" ref="index"/>
+    <file name="03_178245x45.jpg" crc="286605918" ref="index"/>
+    <file name="03_192445x45.jpg" crc="4177442146" ref="index"/>
+    <file name="día-del-periodista.jpg" crc="435845339" ref="index"/>
+    <file name="día-del-periodista45x45.jpg" crc="234819928" ref="index"/>
+    <file name="05_1883.jpg" crc="122868967" ref="index"/>
+    <file name="05_1934.jpg" crc="4286026241" ref="index"/>
+    <file name="05_188345x45.jpg" crc="3970997566" ref="index"/>
+    <file name="05_193445x45.jpg" crc="249000738" ref="index"/>
+    <file name="06_1814.jpg" crc="3838696992" ref="index"/>
+    <file name="día-de-la-enfermera.jpg" crc="311359412" ref="index"/>
+    <file name="06_181445x45.jpg" crc="4089436682" ref="index"/>
+    <file name="día-de-la-enfermera45x45.jpg" crc="4061437462" ref="index"/>
+    <file name="07_1986.jpg" crc="4169003895" ref="index"/>
+    <file name="07_198645x45.jpg" crc="199546292" ref="index"/>
+    <file name="08_1824.jpg" crc="3999183466" ref="index"/>
+    <file name="08_182445x45.jpg" crc="123946771" ref="index"/>
+    <file name="09_1900.jpg" crc="3984506928" ref="index"/>
+    <file name="09_190045x45.jpg" crc="26695924" ref="index"/>
+    <file name="10_1876.jpg" crc="336943838" ref="index"/>
+    <file name="10_1914.jpg" crc="4136396561" ref="index"/>
+    <file name="10_2008.jpg" crc="4037617478" ref="index"/>
+    <file name="10_187645x45.jpg" crc="4141393057" ref="index"/>
+    <file name="10_191445x45.jpg" crc="4104459998" ref="index"/>
+    <file name="10_200845x45.jpg" crc="4008587647" ref="index"/>
+    <file name="11_1861.jpg" crc="4055064329" ref="index"/>
+    <file name="11_186145x45.jpg" crc="289671759" ref="index"/>
+    <file name="12_1843.jpg" crc="4147905979" ref="index"/>
+    <file name="12_184345x45.jpg" crc="4015500706" ref="index"/>
+    <file name="13_1916.jpg" crc="3765919370" ref="index"/>
+    <file name="13_1974.jpg" crc="99986492" ref="index"/>
+    <file name="13_191645x45.jpg" crc="98037243" ref="index"/>
+    <file name="13_197445x45.jpg" crc="3991734986" ref="index"/>
+    <file name="14_1866.jpg" crc="247882991" ref="index"/>
+    <file name="14_186645x45.jpg" crc="230728840" ref="index"/>
+    <file name="15_1869.jpg" crc="4261437421" ref="index"/>
+    <file name="día-del-compositor.jpg" crc="44809369" ref="index"/>
+    <file name="15_186945x45.jpg" crc="477239624" ref="index"/>
+    <file name="día-del-compositor45x45.jpg" crc="3956811522" ref="index"/>
+    <file name="16_1826.jpg" crc="3934289055" ref="index"/>
+    <file name="16_1952.jpg" crc="4216894355" ref="index"/>
+    <file name="16_182645x45.jpg" crc="4052600796" ref="index"/>
+    <file name="16_195245x45.jpg" crc="3982972453" ref="index"/>
+    <file name="17_1974.jpg" crc="75708739" ref="index"/>
+    <file name="17_1980.jpg" crc="232780270" ref="index"/>
+    <file name="17_197445x45.jpg" crc="3937345768" ref="index"/>
+    <file name="17_198045x45.jpg" crc="422713284" ref="index"/>
+    <file name="18_1955.jpg" crc="3953922573" ref="index"/>
+    <file name="18_1982.jpg" crc="3924480597" ref="index"/>
+    <file name="18_195545x45.jpg" crc="495175864" ref="index"/>
+    <file name="18_198245x45.jpg" crc="4265760268" ref="index"/>
+    <file name="19_1811.jpg" crc="3906419238" ref="index"/>
+    <file name="19_181145x45.jpg" crc="3788573353" ref="index"/>
+    <file name="20_1913.jpg" crc="3814435666" ref="index"/>
+    <file name="20_191345x45.jpg" crc="4266909737" ref="index"/>
+    <file name="21_1769.jpg" crc="344222721" ref="index"/>
+    <file name="21_1963.jpg" crc="98467602" ref="index"/>
+    <file name="21_176945x45.jpg" crc="3952092771" ref="index"/>
+    <file name="21_196345x45.jpg" crc="376847986" ref="index"/>
+    <file name="22_1925.jpg" crc="466073987" ref="index"/>
+    <file name="22_192545x45.jpg" crc="189518514" ref="index"/>
+    <file name="23_1913.jpg" crc="4187648223" ref="index"/>
+    <file name="23_1942.jpg" crc="482523375" ref="index"/>
+    <file name="23_191345x45.jpg" crc="3940941351" ref="index"/>
+    <file name="23_194245x45.jpg" crc="4131619670" ref="index"/>
+    <file name="24_1976.jpg" crc="3810187693" ref="index"/>
+    <file name="24_1991.jpg" crc="3863626209" ref="index"/>
+    <file name="24_197645x45.jpg" crc="86821717" ref="index"/>
+    <file name="24_199145x45.jpg" crc="3824073509" ref="index"/>
+    <file name="25_1553.jpg" crc="3920308834" ref="index"/>
+    <file name="25_1868.jpg" crc="27795502" ref="index"/>
+    <file name="25_1983_.jpg" crc="3803092476" ref="index"/>
+    <file name="25_155345x45.jpg" crc="15099589" ref="index"/>
+    <file name="25_186845x45.jpg" crc="7536649" ref="index"/>
+    <file name="25_1983_45x45.jpg" crc="178552187" ref="index"/>
+    <file name="26_1865.jpg" crc="4073378888" ref="index"/>
+    <file name="26_1938.jpg" crc="4152881289" ref="index"/>
+    <file name="26_186545x45.jpg" crc="320194229" ref="index"/>
+    <file name="26_193845x45.jpg" crc="384142793" ref="index"/>
+    <file name="27_1857.jpg" crc="3880977044" ref="index"/>
+    <file name="27_1984.jpg" crc="4093703993" ref="index"/>
+    <file name="27_185745x45.jpg" crc="4152765666" ref="index"/>
+    <file name="27_198445x45.jpg" crc="179505138" ref="index"/>
+    <file name="28_1875 - copia.jpg" crc="3976474391" ref="index"/>
+    <file name="28_1934 - copia.jpg" crc="4009180468" ref="index"/>
+    <file name="28_1875 - copia45x45.jpg" crc="349240026" ref="index"/>
+    <file name="28_1934 - copia45x45.jpg" crc="269589114" ref="index"/>
+    <file name="29_1970.jpg" crc="477185208" ref="index"/>
+    <file name="29_197045x45.jpg" crc="337522207" ref="index"/>
+    <file name="30_1904.jpg" crc="6678520" ref="index"/>
+    <file name="30_190445x45.jpg" crc="422140928" ref="index"/>
+    <file name="31_1824.jpg" crc="3988043912" ref="index"/>
+    <file name="31_182445x45.jpg" crc="3939331341" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4049767616" mt="1419878338733" redirect="true"/>
+</manifest>

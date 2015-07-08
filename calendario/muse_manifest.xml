@@ -1,0 +1,82 @@
+<manifest alg="2" build="329" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="417434784"/>
+    <file name="index.css" crc="169879691" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3865766194" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="webpro.js" crc="3903299128" ref="index"/>
+    <file name="musewpslideshow.js" crc="138381373" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4250894771" ref="index"/>
+    <file name="touchswipe.js" crc="4156838003" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="1829 vicente guerrero.jpg" crc="4254734466" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="1933 día del libro.jpg" crc="437738872" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="1531 rey carlos v.jpg" crc="3983868969" ref="index"/>
+    <file name="1915 mathias goeritz.jpg" crc="290873684" ref="index"/>
+    <file name="1521 hernán cortés.jpg" crc="4102413665" ref="index"/>
+    <file name="1956 biblioteca central.jpg" crc="3764642839" ref="index"/>
+    <file name="1833 vicente suárez.jpg" crc="166614226" ref="index"/>
+    <file name="1854 esculela nacional de medicina.jpg" crc="234687390" ref="index"/>
+    <file name="1867 toma de puebla.jpg" crc="4000456050" ref="index"/>
+    <file name="1884 biblioteca nacional de mexico.jpg" crc="109409920" ref="index"/>
+    <file name="1861 francisco gonzález bocanegra.jpg" crc="518470285" ref="index"/>
+    <file name="1935 escuelas artículo 123.jpg" crc="298736901" ref="index"/>
+    <file name="1789 doña leona vicario.jpg" crc="222514882" ref="index"/>
+    <file name="1919 emiliano zapata.jpg" crc="417246096" ref="index"/>
+    <file name="1954 francisco j múgica.jpg" crc="3898551086" ref="index"/>
+    <file name="1954 luis cabrera.jpg" crc="4101160262" ref="index"/>
+    <file name="1880 ana maría berlanga.jpg" crc="4220036825" ref="index"/>
+    <file name="1943 colegio nacional.jpg" crc="132025114" ref="index"/>
+    <file name="1940 homero aridjis.jpg" crc="3764116873" ref="index"/>
+    <file name="1953 derechos políticos.jpg" crc="231246608" ref="index"/>
+    <file name="1779 antonio maría de bucareli y ursúa.jpg" crc="211925046" ref="index"/>
+    <file name="1915 salario mínimo.jpg" crc="466576891" ref="index"/>
+    <file name="1531 puebla de los ángeles.jpg" crc="7873988" ref="index"/>
+    <file name="1869 estado de morelos.jpg" crc="3870863982" ref="index"/>
+    <file name="1851 andrés quintana roo.jpg" crc="294966197" ref="index"/>
+    <file name="1861 ley de instrucción pública.jpg" crc="4029010826" ref="index"/>
+    <file name="1823 escudo nacional.jpg" crc="306208111" ref="index"/>
+    <file name="1825 luis gonzaga ortiz.jpg" crc="429551519" ref="index"/>
+    <file name="1695 sor juana inés de la cruz.jpg" crc="4014475903" ref="index"/>
+    <file name="1961 cinvestav.jpg" crc="4217490603" ref="index"/>
+    <file name="1906 león díaz cárdenaz.jpg" crc="4051117713" ref="index"/>
+    <file name="1998 octavio paz.jpg" crc="4186140564" ref="index"/>
+    <file name="1875 la academia mexicana de la lengua.jpg" crc="111910443" ref="index"/>
+    <file name="1877 enrique flores magón.jpg" crc="84690550" ref="index"/>
+    <file name="1530 guadalajara.jpg" crc="4122430527" ref="index"/>
+    <file name="1833 instituto nacional de geografía y estadística de la repúbli.jpg" crc="3851026072" ref="index"/>
+    <file name="1863 belisario domínguez.jpg" crc="59917374" ref="index"/>
+    <file name="1930 emilio rabasa.jpg" crc="4063912984" ref="index"/>
+    <file name="1813 josé maría morelos.jpg" crc="109059205" ref="index"/>
+    <file name="1853 antonio lópez de santa anna.jpg" crc="293664352" ref="index"/>
+    <file name="1854 nicolás bravo.jpg" crc="3776192063" ref="index"/>
+    <file name="día internacional de la madre tierra.jpg" crc="121953400" ref="index"/>
+    <file name="1824 estado de san luis potosí.jpg" crc="4231648644" ref="index"/>
+    <file name="1917 venustiano carranza.jpg" crc="3821363383" ref="index"/>
+    <file name="1889 sebastián lerdo tejada.jpg" crc="379801556" ref="index"/>
+    <file name="1914 heroica escuela naval.jpg" crc="4170231077" ref="index"/>
+    <file name="1897 manuel ávila camacho.jpg" crc="3956631501" ref="index"/>
+    <file name="1908 josé maría marroqui.jpg" crc="4045225088" ref="index"/>
+    <file name="1897 escuela naval militar de méxico.jpg" crc="3961272223" ref="index"/>
+    <file name="día mundial del libro y del derecho de autor.jpg" crc="257974875" ref="index"/>
+    <file name="1914 abundio martínez.jpg" crc="4269078744" ref="index"/>
+    <file name="1988 guillermo haro barraza copia.jpg" crc="3917298073" ref="index"/>
+    <file name="1885 jesús romero flores.jpg" crc="89767827" ref="index"/>
+    <file name="día mundial de la seguridad y salud en el trabajo.jpg" crc="514553977" ref="index"/>
+    <file name="1912 primer reparto agrario.jpg" crc="136864977" ref="index"/>
+    <file name="día del niño.jpg" crc="474443586" ref="index"/>
+    <file name="1863 estado de campeche.jpg" crc="4054966068" ref="index"/>
+    <file name="1967 comisión mexicana de cooperación.jpg" crc="126664777" ref="index"/>
+    <file name="1904 césar garizurieta.jpg" crc="218671652" ref="index"/>
+    <file name="día mundial de la salud.jpg" crc="388608881" ref="index"/>
+    <file name="abril_02.jpg" crc="157525233" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3822346021" mt="1396552260698" redirect="true"/>
+</manifest>

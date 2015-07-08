@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Properties>
+  <tableOfContent>
+    <tocData>
+      <pageNumber value="1" />
+      <title value="" />
+      <children />
+    </tocData>
+  </tableOfContent>
+  <bookProperties>
+    <pages>
+      <defaultValue>
+        <BGColor value="#FFFFFF" />
+        <width value="703" />
+        <height value="909" />
+        <slideshowDelay value="2000" />
+      </defaultValue>
+      <elements>
+        <page>
+          <links />
+          <id value="1" />
+        </page>
+        <page>
+          <links />
+          <id value="2" />
+        </page>
+        <page>
+          <links />
+          <id value="3" />
+        </page>
+        <page>
+          <links />
+          <id value="4" />
+        </page>
+      </elements>
+    </pages>
+    <searchIndex ext="search/searchtext.xml" />
+    <bookId value="e8fc9a75-1961-47d3-b5fe-52b4d9d11483" />
+    <bookWidth value="703" />
+    <bookHeight value="909" />
+    <bookName value="Comiconce II" />
+    <bookBG src="image/grey-inner.jpg" scale="scale" width="1000" height="1000" color="#7D858A" />
+    <searchVisible value="false" />
+    <navigationVisible value="true" />
+    <singlePageMode value="false" />
+    <rightToLeftMode value="false" />
+    <hardCover value="false" border="false" color="#F5AB6E" width="15" height="15" />
+    <skin style="ClassicGrey" />
+    <tocVisible value="false" />
+    <slideshowVisible value="false" />
+    <bookmarksVisible value="false" />
+    <bookLang value="es" />
+    <sessionRestore value="false" />
+  </bookProperties>
+</Properties>

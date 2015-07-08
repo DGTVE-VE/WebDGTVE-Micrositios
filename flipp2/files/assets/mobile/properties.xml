@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Properties>
+  <tableOfContent>
+    <tocData>
+      <pageNumber value="1" />
+      <title value="" />
+      <children>
+        <tocData>
+          <pageNumber value="1" />
+          <title value="c01" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="2" />
+          <title value="c02" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="3" />
+          <title value="c03" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="4" />
+          <title value="c04" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="5" />
+          <title value="c05" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="6" />
+          <title value="c06" />
+          <children />
+        </tocData>
+      </children>
+    </tocData>
+  </tableOfContent>
+  <bookProperties>
+    <pages>
+      <defaultValue>
+        <BGColor value="#FFFFFF" />
+        <width value="3386" />
+        <height value="4409" />
+        <slideshowDelay value="2000" />
+      </defaultValue>
+      <elements>
+        <page>
+          <links />
+          <id value="1" />
+          <width value="1700" />
+          <height value="2200" />
+        </page>
+        <page>
+          <links />
+          <id value="2" />
+          <width value="1700" />
+          <height value="2200" />
+        </page>
+        <page>
+          <links />
+          <id value="3" />
+        </page>
+        <page>
+          <links />
+          <id value="4" />
+          <width value="3385" />
+          <height value="4294" />
+        </page>
+        <page>
+          <links />
+          <id value="5" />
+        </page>
+        <page>
+          <links />
+          <id value="6" />
+        </page>
+      </elements>
+    </pages>
+    <searchIndex ext="search/searchtext.xml" />
+    <bookId value="53184268-f520-4d7f-8da5-0018f873f71e" />
+    <bookWidth value="1700" />
+    <bookHeight value="2200" />
+    <bookName value="Comic" />
+    <bookBG src="image/grey-inner.jpg" scale="scale" width="1000" height="1000" color="#6F7070" />
+    <searchVisible value="false" />
+    <navigationVisible value="true" />
+    <singlePageMode value="false" />
+    <rightToLeftMode value="false" />
+    <hardCover value="false" border="false" color="#F5AB6E" width="15" height="15" />
+    <skin style="ClassicGrey" />
+    <tocVisible value="false" />
+    <slideshowVisible value="true" />
+    <bookmarksVisible value="false" />
+    <bookLang value="es" />
+    <sessionRestore value="false" />
+  </bookProperties>
+</Properties>

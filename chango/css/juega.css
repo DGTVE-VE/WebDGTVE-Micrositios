@@ -1,0 +1,244 @@
+html
+{
+	background: #FFFFFF url("../images/honey_wood_texture_by_polkapebble-d386z3s.jpg") no-repeat center top scroll;
+	background-size: cover !important;
+}
+
+#page
+{
+	z-index: 1;
+	width: 980px;
+	min-height: 499.8649067911663px;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: 18px;
+	margin-bottom: -22px;
+}
+
+#ppu2343
+{
+	width: 0.01px;
+	margin-left: 751px;
+	position: relative;
+}
+
+#u2343
+{
+	z-index: 20;
+	height: 69px;
+	width: 75px;
+	vertical-align: top;
+	background: url("../images/btnface-u2343.png") no-repeat 9px 9px;
+	margin-bottom: -9px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: -8px;
+	left: -9px;
+}
+
+#u2343:hover
+{
+	background: url("../images/btnface-u2343-r.png") no-repeat 0px 0px;
+}
+
+#u2343:active
+{
+	background: url("../images/btnface-u2343-m.png") no-repeat 0px 0px;
+}
+
+#u2344
+{
+	z-index: 24;
+	height: 69px;
+	width: 75px;
+	vertical-align: top;
+	background: url("../images/btntwit-u2344.png") no-repeat 9px 9px;
+	margin-bottom: -8px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: -9px;
+	left: 50px;
+}
+
+#u2344:hover
+{
+	background: url("../images/btntwit-u2344-r.png") no-repeat 0px 0px;
+}
+
+#u2344:active
+{
+	background: url("../images/btntwit-u2344-m.png") no-repeat 0px 0px;
+}
+
+#u2345
+{
+	z-index: 28;
+	height: 69px;
+	width: 74px;
+	vertical-align: top;
+	background: url("../images/btnyou-u2345.png") no-repeat 9px 9px;
+	margin-bottom: -9px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: -8px;
+	left: 110px;
+}
+
+#u2345:hover
+{
+	background: url("../images/btnyou-u2345-r.png") no-repeat 0px 0px;
+}
+
+#u2345:active
+{
+	background: url("../images/btnyou-u2345-m.png") no-repeat 0px 0px;
+}
+
+#pu2338
+{
+	width: 0.01px;
+	margin-left: 10px;
+	margin-top: 3px;
+	position: relative;
+}
+
+#u2338
+{
+	z-index: 6;
+	width: 364px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 605px;
+	left: 584px;
+}
+
+#u2339
+{
+	z-index: 8;
+	height: 46px;
+	width: 171px;
+	vertical-align: top;
+	background: url("../images/tv%20educativa-u2339.png") no-repeat 0px 0px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u2339:hover
+{
+	background: url("../images/tv%20educativa-u2339-r.png") no-repeat 0px 0px;
+}
+
+#u2339:active
+{
+	background: url("../images/tv%20educativa-u2339-m.png") no-repeat 0px 0px;
+}
+
+#u2340
+{
+	z-index: 12;
+	height: 46px;
+	width: 74px;
+	vertical-align: top;
+	background: url("../images/aprende%20btn-u2340.png") no-repeat 0px 0px;
+	position: relative;
+	margin-right: -10000px;
+	left: 184px;
+}
+
+#u2340:hover
+{
+	background: url("../images/aprende%20btn-u2340-r.png") no-repeat 0px 0px;
+}
+
+#u2340:active
+{
+	background: url("../images/aprende%20btn-u2340-m.png") no-repeat 0px 0px;
+}
+
+#u2341
+{
+	z-index: 16;
+	height: 46px;
+	width: 94px;
+	vertical-align: top;
+	background: url("../images/ingenio%20btn-u2341.png") no-repeat 0px 0px;
+	position: relative;
+	margin-right: -10000px;
+	left: 270px;
+}
+
+#u2341:hover
+{
+	background: url("../images/ingenio%20btn-u2341-r.png") no-repeat 0px 0px;
+}
+
+#u2341:active
+{
+	background: url("../images/ingenio%20btn-u2341-m.png") no-repeat 0px 0px;
+}
+
+#u2371
+{
+	z-index: 31;
+	width: 868px;
+	position: relative;
+	margin-right: -10000px;
+	left: 48px;
+}
+
+#u3340
+{
+	z-index: 33;
+	width: 834px;
+	height: 567px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 15px;
+	left: 63px;
+}
+
+#u2349
+{
+	z-index: 35;
+	height: 188px;
+	width: 134px;
+	vertical-align: top;
+	background: url("../images/u2349.png") no-repeat 0px 0px;
+	margin-bottom: -4px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 479px;
+	left: -7px;
+}
+
+#u2349:hover
+{
+	background: url("../images/u2349-r.png") no-repeat 0px 0px;
+}
+
+#u3334-4
+{
+	z-index: 2;
+	width: 455px;
+	min-height: 13px;
+	margin-left: 263px;
+	margin-top: 8px;
+}
+
+body
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

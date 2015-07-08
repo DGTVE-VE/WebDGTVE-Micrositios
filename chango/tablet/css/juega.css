@@ -1,0 +1,51 @@
+@-ms-viewport
+{
+	width: 768px;
+}
+
+@-webkit-viewport
+{
+	width: 768px;
+}
+
+@-o-viewport
+{
+	width: 768px;
+}
+
+@-moz-viewport
+{
+	width: 768px;
+}
+
+@viewport
+{
+	width: 768px;
+}
+
+html
+{
+	background: #FFFFFF url("../../images/honey_wood_texture_by_polkapebble-d386z3s.jpg") no-repeat center top scroll;
+	background-size: cover !important;
+}
+
+#page
+{
+	z-index: 1;
+	width: 414px;
+	min-height: 0px;
+	padding: 1029px 177px 2px;
+}
+
+#u3101-4
+{
+	z-index: 2;
+	width: 414px;
+	min-height: 13px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

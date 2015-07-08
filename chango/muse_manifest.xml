@@ -1,0 +1,238 @@
+<manifest alg="2" build="704" opt="true" iceEnabled="true">
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-p_gina-maestra.css" crc="4220182832" ref="phone>index"/>
+      <file name="index.css" crc="3779163469" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="145617751" mt="1372111186029"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="394161505" ref="tablet>index"/>
+      <file name="master_a-p_gina-maestra.css" crc="322900752" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="213644743" mt="1372111195661"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="3837790900"/>
+    <file name="index.css" crc="3824242208" ref="index"/>
+    <file name="juega.css" crc="104906415" ref="juega"/>
+    <file name="master_a-p_gina-maestra.css" crc="3867042896" ref="galería:index:juega"/>
+    <file name="galer_a.css" crc="256602032" ref="galería"/>
+  </folder>
+  <folder name="assets">
+    <file name="chancla.gif" crc="92049147" mt="1369073159000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:juega:tablet>index:phone>index:galería"/>
+    <file name="museutils.js" crc="3992981318" ref="index:juega:tablet>index:phone>index:galería"/>
+    <file name="pie.js" crc="3827607177" ref="index:tablet>index:phone>index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3956991090" ref="juega:galería"/>
+    <file name="webpro.js" crc="197321703" ref="index:tablet>index:phone>index:galería"/>
+    <file name="musewpslideshow.js" crc="4283859919" ref="index:tablet>index:phone>index:galería"/>
+    <file name="jquery.museoverlay.js" crc="3836522771" ref="index:tablet>index:phone>index:galería"/>
+    <file name="touchswipe.js" crc="4156838003" ref="index:tablet>index:phone>index:galería"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="juega:index:tablet>index:phone>index:galería"/>
+    <file name="museredirect.js" crc="236897542" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="base.png" crc="152867634" ref="tablet>index"/>
+    <file name="logo.png" crc="367046433" ref="index:tablet>index"/>
+    <file name="web_r9_c5.gif" crc="3885058639" ref="index:tablet>index:phone>index"/>
+    <file name="letreros.gif" crc="4270041674" ref="index"/>
+    <file name="cyc01.jpg" crc="4157351356" ref="galería"/>
+    <file name="blank.gif" crc="4208392903" ref="index:tablet>index:phone>index:galería"/>
+    <file name="cyc02.jpg" crc="49316768" ref="galería"/>
+    <file name="cyc06.jpg" crc="259730999" ref="tablet>index:galería"/>
+    <file name="cyc08.jpg" crc="3846059999" ref="galería"/>
+    <file name="loading.gif" crc="3815509949" ref="index:tablet>index:phone>index:galería"/>
+    <file name="marco.png" crc="3921529250" ref="tablet>index:galería"/>
+    <file name="cyc010.png" crc="135321547" ref="galería"/>
+    <file name="cyc03.png" crc="3909268185" ref="galería"/>
+    <file name="cyc04.png" crc="152210351" ref="galería"/>
+    <file name="cyc05.png" crc="3938371773" ref="galería"/>
+    <file name="cyc07.png" crc="499492724" ref="galería"/>
+    <file name="cyc09.png" crc="338566167" ref="galería"/>
+    <file name="cyc011.png" crc="527700088" ref="galería"/>
+    <file name="textoqs.png" crc="3944454665" ref="index:tablet>index:phone>index"/>
+    <file name="honey_wood_texture_by_polkapebble-d386z3s.jpg" crc="4044243178" ref="juega:galería"/>
+    <file name="cyc01080x45.jpg" crc="59790532" ref="galería"/>
+    <file name="cyc0180x45.jpg" crc="4288089153" ref="galería"/>
+    <file name="cyc0280x45.jpg" crc="4172349951" ref="galería"/>
+    <file name="cyc0380x45.jpg" crc="4061532993" ref="galería"/>
+    <file name="cyc0480x45.jpg" crc="325567246" ref="galería"/>
+    <file name="cyc0580x45.jpg" crc="3977089536" ref="galería"/>
+    <file name="cyc0680x45.jpg" crc="485679382" ref="galería"/>
+    <file name="cyc0780x45.jpg" crc="4184194652" ref="galería"/>
+    <file name="cyc0880x45.jpg" crc="4051025757" ref="galería"/>
+    <file name="cyc0980x45.jpg" crc="3996070221" ref="galería"/>
+    <file name="cyc01180x45.jpg" crc="3820064193" ref="galería"/>
+    <file name="btnface-u2343.png" crc="470242985" ref="juega"/>
+    <file name="btnface-u2343-r.png" crc="124238731" ref="juega"/>
+    <file name="btnface-u2343-m.png" crc="207726418" ref="juega"/>
+    <file name="btntwit-u2344.png" crc="4283228842" ref="juega"/>
+    <file name="btntwit-u2344-r.png" crc="3997139093" ref="juega"/>
+    <file name="btntwit-u2344-m.png" crc="3977064471" ref="juega"/>
+    <file name="btnyou-u2345.png" crc="4230875273" ref="juega"/>
+    <file name="btnyou-u2345-r.png" crc="3820002291" ref="juega"/>
+    <file name="btnyou-u2345-m.png" crc="396559608" ref="juega"/>
+    <file name="tv educativa-u2339.png" crc="3905122961" ref="juega"/>
+    <file name="tv educativa-u2339-r.png" crc="4260234701" ref="juega"/>
+    <file name="tv educativa-u2339-m.png" crc="4054741518" ref="juega"/>
+    <file name="aprende btn-u2340.png" crc="3778569896" ref="juega"/>
+    <file name="aprende btn-u2340-r.png" crc="3960508557" ref="juega"/>
+    <file name="aprende btn-u2340-m.png" crc="4221548854" ref="juega"/>
+    <file name="ingenio btn-u2341.png" crc="424331211" ref="juega"/>
+    <file name="ingenio btn-u2341-r.png" crc="3961159173" ref="juega"/>
+    <file name="ingenio btn-u2341-m.png" crc="4036241304" ref="juega"/>
+    <file name="u2349.png" crc="439215292" ref="juega"/>
+    <file name="u2349-r.png" crc="439215292" ref="juega"/>
+    <file name="btnface-u2125.png" crc="470242985" ref="index"/>
+    <file name="btnface-u2125-r.png" crc="124238731" ref="index"/>
+    <file name="btnface-u2125-m.png" crc="4123766787" ref="index"/>
+    <file name="btntwit-u2126.png" crc="4283228842" ref="index"/>
+    <file name="btntwit-u2126-r.png" crc="3997139093" ref="index"/>
+    <file name="btntwit-u2126-m.png" crc="304770333" ref="index"/>
+    <file name="btnyou-u2127.png" crc="4230875273" ref="index"/>
+    <file name="btnyou-u2127-r.png" crc="3820002291" ref="index"/>
+    <file name="btnyou-u2127-m.png" crc="166442720" ref="index"/>
+    <file name="tv educativa-u2129.png" crc="3905122961" ref="index"/>
+    <file name="tv educativa-u2129-r.png" crc="4260234701" ref="index"/>
+    <file name="tv educativa-u2129-m.png" crc="4054741518" ref="index"/>
+    <file name="aprende btn-u2130.png" crc="3778569896" ref="index"/>
+    <file name="aprende btn-u2130-r.png" crc="3960508557" ref="index"/>
+    <file name="aprende btn-u2130-m.png" crc="4221548854" ref="index"/>
+    <file name="ingenio btn-u2131.png" crc="424331211" ref="index"/>
+    <file name="ingenio btn-u2131-r.png" crc="3961159173" ref="index"/>
+    <file name="ingenio btn-u2131-m.png" crc="4036241304" ref="index"/>
+    <file name="u2193-r-sprite.png" crc="337733063" ref="index"/>
+    <file name="u2193-m-sprite.png" crc="3970372633" ref="index"/>
+    <file name="marco2.png" crc="3889342978" ref="juega"/>
+    <file name="btnface-u2434.png" crc="470242985" ref="tablet>index"/>
+    <file name="btnface-u2434-r.png" crc="124238731" ref="tablet>index"/>
+    <file name="btnface-u2434-m.png" crc="4123766787" ref="tablet>index"/>
+    <file name="btntwit-u2435.png" crc="4283228842" ref="tablet>index"/>
+    <file name="btntwit-u2435-r.png" crc="3997139093" ref="tablet>index"/>
+    <file name="btntwit-u2435-m.png" crc="304770333" ref="tablet>index"/>
+    <file name="btnyou-u2436.png" crc="4230875273" ref="tablet>index"/>
+    <file name="btnyou-u2436-r.png" crc="3820002291" ref="tablet>index"/>
+    <file name="btnyou-u2436-m.png" crc="166442720" ref="tablet>index"/>
+    <file name="book.png" crc="3843325134" ref="tablet>index:phone>index:index"/>
+    <file name="u2505-r-sprite.png" crc="4258005920" ref="tablet>index"/>
+    <file name="u2505-m-sprite.png" crc="4012434478" ref="tablet>index"/>
+    <file name="tv educativa-u2440.png" crc="4001148588" ref="tablet>index"/>
+    <file name="tv educativa-u2440-r.png" crc="70400734" ref="tablet>index"/>
+    <file name="tv educativa-u2440-m.png" crc="94448328" ref="tablet>index"/>
+    <file name="aprende btn-u2438.png" crc="3760093211" ref="tablet>index"/>
+    <file name="aprende btn-u2438-r.png" crc="3793416817" ref="tablet>index"/>
+    <file name="aprende btn-u2438-m.png" crc="4141312366" ref="tablet>index"/>
+    <file name="ingenio btn-u2439.png" crc="13399384" ref="tablet>index"/>
+    <file name="ingenio btn-u2439-r.png" crc="4072548736" ref="tablet>index"/>
+    <file name="ingenio btn-u2439-m.png" crc="264135317" ref="tablet>index"/>
+    <file name="cyc010683x383.jpg" crc="3872425542" ref="tablet>index"/>
+    <file name="cyc01683x385.jpg" crc="459077677" ref="tablet>index"/>
+    <file name="cyc02683x385.jpg" crc="14271182" ref="tablet>index"/>
+    <file name="cyc03683x385.jpg" crc="311096614" ref="tablet>index"/>
+    <file name="cyc04683x385.jpg" crc="48543283" ref="tablet>index"/>
+    <file name="cyc05683x385.jpg" crc="170356006" ref="tablet>index"/>
+    <file name="cyc07683x385.jpg" crc="4060340110" ref="tablet>index"/>
+    <file name="cyc08683x385.jpg" crc="3958068050" ref="tablet>index"/>
+    <file name="cyc09683x385.jpg" crc="463712874" ref="tablet>index"/>
+    <file name="cyc011683x385.jpg" crc="5809453" ref="tablet>index"/>
+    <file name="cyc01065x37.jpg" crc="4139089608" ref="tablet>index"/>
+    <file name="cyc0165x37.jpg" crc="4011513483" ref="tablet>index"/>
+    <file name="cyc0265x37.jpg" crc="127225925" ref="tablet>index"/>
+    <file name="cyc0365x37.jpg" crc="4186891725" ref="tablet>index"/>
+    <file name="cyc0465x37.jpg" crc="491977543" ref="tablet>index"/>
+    <file name="cyc0565x37.jpg" crc="47320043" ref="tablet>index"/>
+    <file name="cyc0665x37.jpg" crc="3968598588" ref="tablet>index"/>
+    <file name="cyc0765x37.jpg" crc="506828464" ref="tablet>index"/>
+    <file name="cyc0865x37.jpg" crc="175749581" ref="tablet>index"/>
+    <file name="cyc0965x37.jpg" crc="3763849646" ref="tablet>index"/>
+    <file name="cyc01165x37.jpg" crc="4251019436" ref="tablet>index"/>
+    <file name="letrero-galeria-u2620.png" crc="3830625827" ref="tablet>index"/>
+    <file name="u2622.png" crc="312165932" ref="tablet>index"/>
+    <file name="u2622-r.png" crc="312165932" ref="tablet>index"/>
+    <file name="cyc010340x191.jpg" crc="3956009652" ref="phone>index"/>
+    <file name="cyc01338x191.jpg" crc="3821898323" ref="phone>index"/>
+    <file name="cyc02338x190.jpg" crc="508500601" ref="phone>index"/>
+    <file name="cyc03339x191.jpg" crc="4161876436" ref="phone>index"/>
+    <file name="cyc04338x190.jpg" crc="327516109" ref="phone>index"/>
+    <file name="cyc06346x194.jpg" crc="81446824" ref="phone>index"/>
+    <file name="cyc07345x195.jpg" crc="3923725488" ref="phone>index"/>
+    <file name="cyc08345x194.jpg" crc="412799118" ref="phone>index"/>
+    <file name="cyc09345x194.jpg" crc="3800715918" ref="phone>index"/>
+    <file name="cyc011345x195.jpg" crc="180707370" ref="phone>index"/>
+    <file name="cyc01052x29.jpg" crc="144275112" ref="phone>index"/>
+    <file name="cyc0152x29.jpg" crc="3891161528" ref="phone>index"/>
+    <file name="cyc0252x29.jpg" crc="294073385" ref="phone>index"/>
+    <file name="cyc0352x29.jpg" crc="4029304548" ref="phone>index"/>
+    <file name="cyc0452x29.jpg" crc="388981665" ref="phone>index"/>
+    <file name="cyc0652x29.jpg" crc="3862861772" ref="phone>index"/>
+    <file name="cyc0752x29.jpg" crc="356364045" ref="phone>index"/>
+    <file name="cyc0852x29.jpg" crc="197764210" ref="phone>index"/>
+    <file name="cyc0952x29.jpg" crc="130268217" ref="phone>index"/>
+    <file name="cyc01152x29.jpg" crc="75223972" ref="phone>index"/>
+    <file name="marco358x206.png" crc="4052985715" ref="phone>index"/>
+    <file name="letrero-galeria-u2988.png" crc="195503494" ref="phone>index"/>
+    <file name="btnface-u2992.png" crc="102752410" ref="phone>index"/>
+    <file name="btnface-u2992-r.png" crc="3859053626" ref="phone>index"/>
+    <file name="btnface-u2992-m.png" crc="4275785601" ref="phone>index"/>
+    <file name="btntwit-u2993.png" crc="4193024451" ref="phone>index"/>
+    <file name="btntwit-u2993-r.png" crc="3758802635" ref="phone>index"/>
+    <file name="btntwit-u2993-m.png" crc="267404417" ref="phone>index"/>
+    <file name="btnyou-u2994.png" crc="23646958" ref="phone>index"/>
+    <file name="btnyou-u2994-r.png" crc="4219138075" ref="phone>index"/>
+    <file name="btnyou-u2994-m.png" crc="3929422472" ref="phone>index"/>
+    <file name="tv educativa-u2998.png" crc="249179880" ref="phone>index"/>
+    <file name="tv educativa-u2998-r.png" crc="211336837" ref="phone>index"/>
+    <file name="tv educativa-u2998-m.png" crc="3827389466" ref="phone>index"/>
+    <file name="aprende btn-u2996.png" crc="3761355134" ref="phone>index"/>
+    <file name="aprende btn-u2996-r.png" crc="423350642" ref="phone>index"/>
+    <file name="aprende btn-u2996-m.png" crc="3987388979" ref="phone>index"/>
+    <file name="ingenio btn-u2997.png" crc="4004518535" ref="phone>index"/>
+    <file name="ingenio btn-u2997-r.png" crc="410304828" ref="phone>index"/>
+    <file name="ingenio btn-u2997-m.png" crc="507601853" ref="phone>index"/>
+    <file name="u3057-r-sprite.png" crc="3856746509" ref="phone>index"/>
+    <file name="u3057-m-sprite.png" crc="203441505" ref="phone>index"/>
+    <file name="u3065.png" crc="443645629" ref="phone>index"/>
+    <file name="u3065-r.png" crc="443645629" ref="phone>index"/>
+    <file name="chango2.swf" crc="357390048" ref="juega"/>
+    <file name="base-pc.png" crc="3833729760" ref="index"/>
+    <file name="aventuras.png" crc="4002483338" ref="index:tablet>index"/>
+    <file name="changini2.gif" crc="299868778" ref="index"/>
+    <file name="tv educativa-u3297.png" crc="532837725" ref="galería"/>
+    <file name="tv educativa-u3297-r.png" crc="477246369" ref="galería"/>
+    <file name="tv educativa-u3297-m.png" crc="4054741518" ref="galería"/>
+    <file name="aprende btn-u3296.png" crc="3778569896" ref="galería"/>
+    <file name="aprende btn-u3296-r.png" crc="4111519690" ref="galería"/>
+    <file name="aprende btn-u3296-m.png" crc="3873103212" ref="galería"/>
+    <file name="ingenio btn-u3298.png" crc="114503133" ref="galería"/>
+    <file name="ingenio btn-u3298-r.png" crc="174693097" ref="galería"/>
+    <file name="ingenio btn-u3298-m.png" crc="4036241304" ref="galería"/>
+    <file name="btnface-u3299.png" crc="4095307609" ref="galería"/>
+    <file name="btnface-u3299-r.png" crc="51291555" ref="galería"/>
+    <file name="btnface-u3299-m.png" crc="207726418" ref="galería"/>
+    <file name="btntwit-u3300.png" crc="4183453456" ref="galería"/>
+    <file name="btntwit-u3300-r.png" crc="3896376475" ref="galería"/>
+    <file name="btntwit-u3300-m.png" crc="532276263" ref="galería"/>
+    <file name="btnyou-u3301.png" crc="316484841" ref="galería"/>
+    <file name="btnyou-u3301-r.png" crc="70929435" ref="galería"/>
+    <file name="btnyou-u3301-m.png" crc="326545467" ref="galería"/>
+    <file name="letrero-galeria-u3303.png" crc="3788715952" ref="galería"/>
+    <file name="u3305.png" crc="439215292" ref="galería"/>
+    <file name="u3305-r.png" crc="439215292" ref="galería"/>
+    <file name="letrerostablet.png" crc="4001280733" ref="tablet>index"/>
+    <file name="changini3.png" crc="104774276" ref="tablet>index"/>
+    <file name="base-phone.png" crc="470425107" ref="phone>index"/>
+    <file name="letreros-phone.png" crc="3913425318" ref="phone>index"/>
+    <file name="changini-phone.png" crc="254048767" ref="phone>index"/>
+    <file name="logo-phone.png" crc="29042796" ref="phone>index"/>
+    <file name="relleno1.jpg" crc="282214044" ref="index"/>
+    <file name="relleno2.jpg" crc="4266357938" ref="tablet>index"/>
+    <file name="relleno3.jpg" crc="321643802" ref="phone>index"/>
+  </folder>
+  <file name="index.html" crc="74171584" mt="1372111261839"/>
+  <file name="juega.html" crc="524397976" mt="1371854456063"/>
+  <file name="galería.html" crc="63125414" mt="1371853441342"/>
+</manifest>

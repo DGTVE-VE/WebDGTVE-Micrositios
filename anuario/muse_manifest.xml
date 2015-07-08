@@ -1,0 +1,36 @@
+<manifest alg="2" build="704" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3837790900"/>
+    <file name="index.css" crc="4240830539" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3992981318" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="4278609653" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="005.jpg" crc="176074328" ref="index"/>
+    <file name="011.jpg" crc="10899953" ref="index"/>
+    <file name="008.jpg" crc="4278398879" ref="index"/>
+    <file name="004a.jpg" crc="298247999" ref="index"/>
+    <file name="006.jpg" crc="536278155" ref="index"/>
+    <file name="007.jpg" crc="329199800" ref="index"/>
+    <file name="008_03.png" crc="3809048074" ref="index"/>
+    <file name="009.jpg" crc="22576078" ref="index"/>
+    <file name="010.jpg" crc="3868779603" ref="index"/>
+    <file name="0081_03.png" crc="218922576" ref="index"/>
+    <file name="003.jpg" crc="4085354528" ref="index"/>
+    <file name="002.jpg" crc="225213484" ref="index"/>
+    <file name="001.jpg" crc="4020004284" ref="index"/>
+    <file name="004_14.png" crc="379328526" ref="index"/>
+    <file name="004b-u276.png" crc="391989524" ref="index"/>
+    <file name="004_07.png" crc="3965901668" ref="index"/>
+    <file name="004_10.png" crc="37842678" ref="index"/>
+    <file name="004_03.png" crc="4092293872" ref="index"/>
+    <file name="006_03.png" crc="26877963" ref="index"/>
+    <file name="003a_03.png" crc="63413112" ref="index"/>
+    <file name="007_03.png" crc="4169825361" ref="index"/>
+  </folder>
+  <file name="index.html" crc="405946727" mt="1387472479091"/>
+</manifest>

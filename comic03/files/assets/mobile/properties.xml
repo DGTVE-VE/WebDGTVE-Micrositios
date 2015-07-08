@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Properties>
+  <tableOfContent>
+    <tocData>
+      <pageNumber value="1" />
+      <title value="" />
+      <children />
+    </tocData>
+  </tableOfContent>
+  <bookProperties>
+    <pages>
+      <defaultValue>
+        <BGColor value="#FFFFFF" />
+        <width value="703" />
+        <height value="909" />
+        <slideshowDelay value="2000" />
+      </defaultValue>
+      <elements>
+        <page>
+          <links />
+          <id value="1" />
+        </page>
+        <page>
+          <links />
+          <id value="2" />
+        </page>
+        <page>
+          <links />
+          <id value="3" />
+          <width value="702" />
+          <height value="910" />
+        </page>
+        <page>
+          <links />
+          <id value="4" />
+        </page>
+        <page>
+          <links />
+          <id value="5" />
+        </page>
+        <page>
+          <links />
+          <id value="6" />
+        </page>
+      </elements>
+    </pages>
+    <searchIndex ext="search/searchtext.xml" />
+    <bookId value="90211c5d-3406-4ead-834b-510b16538856" />
+    <bookWidth value="703" />
+    <bookHeight value="909" />
+    <bookName value="Camino a casa" />
+    <bookBG src="image/grey-inner.jpg" scale="scale" width="1000" height="1000" color="#377E81" />
+    <searchVisible value="false" />
+    <navigationVisible value="true" />
+    <singlePageMode value="false" />
+    <rightToLeftMode value="false" />
+    <hardCover value="false" border="false" color="#F5AB6E" width="15" height="15" />
+    <skin style="ClassicGrey" />
+    <tocVisible value="false" />
+    <slideshowVisible value="true" />
+    <bookmarksVisible value="true" />
+    <bookLang value="es" />
+    <sessionRestore value="false" />
+  </bookProperties>
+</Properties>

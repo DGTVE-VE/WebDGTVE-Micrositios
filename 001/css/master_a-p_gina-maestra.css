@@ -1,0 +1,29 @@
+#u844
+{
+	border-style: none;
+	border-color: transparent;
+	position: relative;
+	background: transparent url("../images/fnd001.jpg") repeat left top;
+}
+
+#u858
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #9DDFC3;
+	position: fixed;
+}
+
+#u1251
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #ABABAB;
+	position: relative;
+}
+
+#u844_align_to_page,#u859,#u1192,#u1251_align_to_page
+{
+	position: relative;
+}
+

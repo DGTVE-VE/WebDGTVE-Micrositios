@@ -1,0 +1,204 @@
+#u6092:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u6089:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u6091:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u6093:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u6090:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u6091.MuseLinkActive,#u6090.MuseLinkActive,#u6089.MuseLinkActive,#u6092.MuseLinkActive,#u6093.MuseLinkActive
+{
+	background-color: transparent;
+}
+
+#u7062
+{
+	background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #CAC8C8));
+	background: -webkit-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: -moz-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: -ms-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: -o-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: linear-gradient(to bottom,#FFFFFF ,#CAC8C8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFFFF, endColorstr=#FFCAC8C8, GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFCAC8C8', GradientType=0)";
+	border-style: solid;
+	border-color: #B6B6B6;
+	position: relative;
+	border-width: 0px 0px 1px;
+}
+
+#u7016,#u6977,#u6240
+{
+	position: relative;
+}
+
+#u6076
+{
+	vertical-align: top;
+	background: url("../../images/u6076.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u6076:hover
+{
+	background: url("../../images/u6076-r.png") no-repeat 0px 0px;
+}
+
+#u6076:active
+{
+	background: url("../../images/u6076-m.png") no-repeat 3px 3px;
+}
+
+#u6078
+{
+	vertical-align: top;
+	background: url("../../images/u6078.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u6078:hover
+{
+	background: url("../../images/u6078-r.png") no-repeat 0px 0px;
+}
+
+#u6078:active
+{
+	background: url("../../images/u6078-m.png") no-repeat 0px 0px;
+}
+
+#u6080
+{
+	vertical-align: top;
+	background: url("../../images/u6080.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u6080:hover
+{
+	background: url("../../images/u6080-r.png") no-repeat 0px 0px;
+}
+
+#u6080:active
+{
+	background: url("../../images/u6080-m.png") no-repeat 3px 3px;
+}
+
+#u6084-4
+{
+	background-color: transparent;
+	color: #3C3C3C;
+	font-size: 7px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+}
+
+#u6085-4,#u6086-4,#u6087-4,#u6088-4
+{
+	color: #3C3C3C;
+	font-size: 7px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+}
+
+#u6089:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u6090:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u6091:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u6092:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u6089,#u6090,#u6091,#u6092,#u6093
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u6093:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u6094,#u6095,#u6096,#u6097
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+}
+
+#u6098-4
+{
+	color: #7F7F7F;
+	text-align: center;
+	font-size: 7px;
+	position: relative;
+}
+
+#u6082
+{
+	vertical-align: top;
+	background: url("../../images/u6082.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u6082:hover
+{
+	background: url("../../images/u6082-r.png") no-repeat 0px 0px;
+}
+
+#u6082:active
+{
+	background: url("../../images/u6082-m.png") no-repeat 3px 3px;
+}
+

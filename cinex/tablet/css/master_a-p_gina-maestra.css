@@ -1,0 +1,227 @@
+#u4818:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4805
+{
+	vertical-align: top;
+	background: url("../../images/u4805.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u4805:hover
+{
+	background: url("../../images/u4805-r.png") no-repeat 0px 0px;
+}
+
+#u4805:active
+{
+	background: url("../../images/u4805-m.png") no-repeat 3px 3px;
+}
+
+#u4807
+{
+	vertical-align: top;
+	background: url("../../images/u4807.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u4807:hover
+{
+	background: url("../../images/u4807-r.png") no-repeat 0px 0px;
+}
+
+#u4807:active
+{
+	background: url("../../images/u4807-m.png") no-repeat 0px 0px;
+}
+
+#u4809
+{
+	vertical-align: top;
+	background: url("../../images/u4809.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u4809:hover
+{
+	background: url("../../images/u4809-r.png") no-repeat 0px 0px;
+}
+
+#u4809:active
+{
+	background: url("../../images/u4809-m.png") no-repeat 3px 3px;
+}
+
+#u4811
+{
+	vertical-align: top;
+	background: url("../../images/u4811.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u4811:hover
+{
+	background: url("../../images/u4811-r.png") no-repeat 0px 0px;
+}
+
+#u4811:active
+{
+	background: url("../../images/u4811-m.png") no-repeat 3px 3px;
+}
+
+#u4813-5
+{
+	background-color: transparent;
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+}
+
+#u4814-5,#u4815-5,#u4816-5,#u4817-5
+{
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+}
+
+#u4813-3,#u4814-3,#u4815-3,#u4816-3,#u4817-3
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u4813-3  span,#u4814-3  span,#u4815-3  span,#u4816-3  span,#u4817-3  span /* line-height set on spans of mixed font sized paras */
+{
+	line-height: 1.2;
+}
+
+#u4813-2,#u4814-2,#u4815-2,#u4816-2,#u4817-2
+{
+	font-size: 13px;
+}
+
+#u4818:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4818,#u4819
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u4819:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4819:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4820
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u4820:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4820:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4821
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u4821:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4821:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4822
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u4822:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4822:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4818.MuseLinkActive,#u4819.MuseLinkActive,#u4820.MuseLinkActive,#u4821.MuseLinkActive,#u4822.MuseLinkActive
+{
+	background-color: transparent;
+}
+
+#u4823,#u4824,#u4825,#u4826
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+}
+
+#u6996-4
+{
+	color: #7F7F7F;
+	text-align: center;
+	font-size: 12px;
+	position: relative;
+}
+
+#u7004,#u6983,#u4925,#u7073,#u7074,#u7076
+{
+	position: relative;
+}
+

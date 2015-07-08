@@ -1,0 +1,446 @@
+html
+{
+	background: #DEE2E1 url("../images/fondo-repetido.jpg") no-repeat center top fixed;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1040px;
+	min-height: 688px;
+	padding-bottom: 11px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u7043
+{
+	z-index: 2;
+	width: 2586px;
+	top: 2px;
+	left: 50%;
+	margin-left: -1293px;
+}
+
+#pu477
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 74px;
+	left: 139px;
+}
+
+#pu477_position_content
+{
+	margin-top: -74px;
+	margin-bottom: 688px;
+}
+
+#u477
+{
+	z-index: 6;
+	width: 126px;
+	top: 123px;
+	left: 50%;
+	margin-left: -326px;
+}
+
+#u4240
+{
+	z-index: 21;
+	height: 122px;
+	width: 104px;
+	top: 623px;
+	left: 50%;
+	margin-left: -390px;
+}
+
+#u4247
+{
+	z-index: 49;
+	width: 168px;
+	height: 46px;
+	top: 674px;
+	left: 50%;
+	margin-left: -278px;
+}
+
+.ie #u4247
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u4247:hover
+{
+	margin: 0px 0px 0px -278px;
+}
+
+.ie #u4247:hover
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4247:active
+{
+	margin: 0px 0px 0px -278px;
+}
+
+.ie #u4247:active
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4247.MuseLinkActive
+{
+	margin: 0px 0px 0px -278px;
+}
+
+#u4242-5
+{
+	z-index: 24;
+	width: 139px;
+	top: 691px;
+	left: 50%;
+	margin-left: -263px;
+}
+
+#u4242-5:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 0px;
+	margin: 0px 0px 0px -263px;
+}
+
+#u4256-4
+{
+	z-index: 58;
+	width: 363px;
+	min-height: 11px;
+	top: 729px;
+	left: 50%;
+	margin-left: -177px;
+}
+
+#u4248
+{
+	z-index: 50;
+	width: 85px;
+	height: 47px;
+	top: 674px;
+	left: 50%;
+	margin-left: -112px;
+}
+
+.ie #u4247.MuseLinkActive,.ie #u4248
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u4248:hover
+{
+	margin: 0px 0px 0px -112px;
+}
+
+.ie #u4248:hover
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4248:active
+{
+	margin: 0px 0px 0px -112px;
+}
+
+.ie #u4248:active
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4248.MuseLinkActive
+{
+	margin: 0px 0px 0px -112px;
+}
+
+#u4252
+{
+	z-index: 54;
+	top: 684px;
+	left: 50%;
+	margin-left: -111px;
+}
+
+#u4243-5
+{
+	z-index: 29;
+	width: 56px;
+	top: 691px;
+	left: 50%;
+	margin-left: -97px;
+}
+
+#u4249
+{
+	z-index: 51;
+	width: 85px;
+	height: 47px;
+	top: 674px;
+	left: 50%;
+	margin-left: -28px;
+}
+
+.ie #u4248.MuseLinkActive,.ie #u4249
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u4249:hover
+{
+	margin: 0px 0px 0px -28px;
+}
+
+.ie #u4249:hover
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4249:active
+{
+	margin: 0px 0px 0px -28px;
+}
+
+.ie #u4249:active
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4249.MuseLinkActive
+{
+	margin: 0px 0px 0px -28px;
+}
+
+#u4253
+{
+	z-index: 55;
+	top: 684px;
+	left: 50%;
+	margin-left: -28px;
+}
+
+#u4244-5
+{
+	z-index: 34;
+	width: 56px;
+	top: 691px;
+	left: 50%;
+	margin-left: -14px;
+}
+
+#u4250
+{
+	z-index: 52;
+	width: 97px;
+	height: 46px;
+	top: 674px;
+	left: 50%;
+	margin-left: 55px;
+}
+
+.ie #u4249.MuseLinkActive,.ie #u4250
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u4250:hover
+{
+	margin: 0px 0px 0px 55px;
+}
+
+.ie #u4250:hover
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4250:active
+{
+	margin: 0px 0px 0px 55px;
+}
+
+.ie #u4250:active
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4250.MuseLinkActive
+{
+	margin: 0px 0px 0px 55px;
+}
+
+#u4254
+{
+	z-index: 56;
+	top: 684px;
+	left: 50%;
+	margin-left: 55px;
+}
+
+#u4245-5
+{
+	z-index: 39;
+	width: 68px;
+	top: 691px;
+	left: 50%;
+	margin-left: 69px;
+}
+
+#u4251
+{
+	z-index: 53;
+	width: 82px;
+	height: 46px;
+	top: 674px;
+	left: 50%;
+	margin-left: 150px;
+}
+
+.ie #u4250.MuseLinkActive,.ie #u4251
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u4251:hover
+{
+	margin: 0px 0px 0px 150px;
+}
+
+.ie #u4251:hover
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4251:active
+{
+	margin: 0px 0px 0px 150px;
+}
+
+.ie #u4251:active
+{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+#u4251.MuseLinkActive
+{
+	margin: 0px 0px 0px 150px;
+}
+
+.ie #u4251.MuseLinkActive
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u4255
+{
+	z-index: 57;
+	top: 684px;
+	left: 50%;
+	margin-left: 151px;
+}
+
+#u4246-5
+{
+	z-index: 44;
+	width: 56px;
+	top: 691px;
+	left: 50%;
+	margin-left: 165px;
+}
+
+#u475
+{
+	z-index: 4;
+	width: 125px;
+	top: 123px;
+	left: 50%;
+	margin-left: 222px;
+}
+
+#u475_img
+{
+	padding-bottom: 1px;
+}
+
+#u4238
+{
+	z-index: 17;
+	height: 53px;
+	width: 53px;
+	top: 672px;
+	left: 50%;
+	margin-left: 255px;
+}
+
+#u4236
+{
+	z-index: 13;
+	height: 53px;
+	width: 53px;
+	top: 672px;
+	left: 50%;
+	margin-left: 295px;
+}
+
+#u4234
+{
+	z-index: 9;
+	height: 53px;
+	width: 53px;
+	top: 672px;
+	left: 50%;
+	margin-left: 336px;
+}
+
+body
+{
+	padding-top: 49px;
+	padding-bottom: 51px;
+}
+

@@ -1,0 +1,215 @@
+#u1639:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u1635:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u1638:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u1636:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u1637.MuseLinkActive,#u1638.MuseLinkActive,#u1636.MuseLinkActive,#u1639.MuseLinkActive,#u1635.MuseLinkActive
+{
+	background-color: transparent;
+}
+
+#u1637:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u1659_clip
+{
+	overflow: hidden;
+}
+
+#u1659_img
+{
+	opacity: 0.98;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=98)";
+	filter: alpha(opacity=98);
+}
+
+#u1628
+{
+	vertical-align: top;
+	background: url("../images/u1628.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u1628:hover
+{
+	background: url("../images/u1628-r.png") no-repeat 0px 0px;
+}
+
+#u1628:active
+{
+	background: url("../images/u1628-m.png") no-repeat 3px 3px;
+}
+
+#u1635:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u1630-5
+{
+	background-color: transparent;
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: fixed;
+}
+
+#u1721-4
+{
+	color: #7F7F7F;
+	text-align: center;
+	font-size: 8px;
+	position: fixed;
+}
+
+#u1636:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u1637:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u1638:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u1635,#u1636,#u1637,#u1638,#u1639
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+}
+
+#u1639:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u1640,#u1641,#u1642,#u1643
+{
+	display: block;
+	vertical-align: top;
+	position: fixed;
+}
+
+#u1631-5,#u1632-5,#u1633-5,#u1634-5
+{
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: fixed;
+}
+
+#u1630-3,#u1631-3,#u1632-3,#u1633-3,#u1634-3
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u1630-3  span,#u1631-3  span,#u1632-3  span,#u1633-3  span,#u1634-3  span /* line-height set on spans of mixed font sized paras */
+{
+	line-height: 1.2;
+}
+
+#u1630-2,#u1631-2,#u1632-2,#u1633-2,#u1634-2
+{
+	font-size: 13px;
+}
+
+#u1620,#u1646,#u1659,#u1644
+{
+	position: fixed;
+}
+
+#u1626
+{
+	vertical-align: top;
+	background: url("../images/u1626.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u1626:hover
+{
+	background: url("../images/u1626-r.png") no-repeat 0px 0px;
+}
+
+#u1626:active
+{
+	background: url("../images/u1626-m.png") no-repeat 3px 3px;
+}
+
+#u1624
+{
+	vertical-align: top;
+	background: url("../images/u1624.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u1624:hover
+{
+	background: url("../images/u1624-r.png") no-repeat 0px 0px;
+}
+
+#u1624:active
+{
+	background: url("../images/u1624-m.png") no-repeat 0px 0px;
+}
+
+#u1622
+{
+	vertical-align: top;
+	background: url("../images/u1622.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u1622:hover
+{
+	background: url("../images/u1622-r.png") no-repeat 0px 0px;
+}
+
+#u1622:active
+{
+	background: url("../images/u1622-m.png") no-repeat 3px 3px;
+}
+

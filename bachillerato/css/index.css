@@ -1,0 +1,166 @@
+html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 700px;
+	min-height: 2536px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u296
+{
+	z-index: 2;
+	width: 900px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: -100px;
+}
+
+#slideshowu89
+{
+	z-index: 4;
+	width: 0.01px;
+	height: 54px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 674px;
+	left: 583px;
+}
+
+#u121
+{
+	position: absolute;
+	width: 530px;
+	height: 817px;
+	background-color: #F7F7F9;
+	background-color: rgba(247, 247, 249, 0.9);
+	top: -520px;
+	left: -440px;
+	-pie-background: rgba(247, 247, 249, 0.9);
+}
+
+#u121popup
+{
+	z-index: 5;
+}
+
+#u176
+{
+	z-index: 6;
+	width: 486px;
+	height: 773px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+	top: 22px;
+	left: 22px;
+}
+
+#u114
+{
+	position: absolute;
+	width: 117px;
+	left: 41px;
+}
+
+#u114popup
+{
+	z-index: 8;
+}
+
+#u179
+{
+	z-index: 9;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	width: 117px;
+	margin-right: -10000px;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+#slideshowu224
+{
+	z-index: 11;
+	width: 0.01px;
+	height: 87px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1134px;
+	left: 426px;
+}
+
+#u225
+{
+	position: absolute;
+	width: 530px;
+	height: 817px;
+	background-color: #F7F7F9;
+	background-color: rgba(247, 247, 249, 0.9);
+	top: -469px;
+	left: -301px;
+	-pie-background: rgba(247, 247, 249, 0.9);
+}
+
+#u225popup
+{
+	z-index: 12;
+}
+
+#u266
+{
+	z-index: 13;
+	width: 486px;
+	height: 773px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+	top: 22px;
+	left: 22px;
+}
+
+#u176_img,#u266_img
+{
+	padding: 5px 1px;
+}
+
+#u256
+{
+	position: absolute;
+	width: 177px;
+}
+
+#u256popup
+{
+	z-index: 15;
+}
+
+#u269
+{
+	z-index: 16;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	width: 177px;
+	margin-right: -10000px;
+}
+

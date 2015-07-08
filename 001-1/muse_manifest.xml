@@ -1,0 +1,41 @@
+<manifest alg="2" build="329" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="417434784"/>
+    <file name="index.css" crc="195928909" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3865766194" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="3937082470" ref="index"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="pantalla.png" crc="4234041077" ref="index"/>
+    <file name="pantallabn.png" crc="423738763" ref="index"/>
+    <file name="nubes_03.png" crc="81766883" ref="index"/>
+    <file name="globo_03-u83.png" crc="71219839" ref="index"/>
+    <file name="globn_03.png" crc="4190880942" ref="index"/>
+    <file name="fec_03.png" crc="3779177763" ref="index"/>
+    <file name="fechas_03.png" crc="3879853552" ref="index"/>
+    <file name="fechas_05.png" crc="256855590" ref="index"/>
+    <file name="fec_07.png" crc="3836941885" ref="index"/>
+    <file name="fechas_08.png" crc="4053539189" ref="index"/>
+    <file name="fechas_10.png" crc="4032219637" ref="index"/>
+    <file name="fechas_13.png" crc="4285411778" ref="index"/>
+    <file name="fechas_15.png" crc="368428199" ref="index"/>
+    <file name="fechas_19.png" crc="4038152357" ref="index"/>
+    <file name="002_04.png" crc="384073946" ref="index"/>
+    <file name="002_02.png" crc="3893283111" ref="index"/>
+    <file name="002_10.png" crc="3805536141" ref="index"/>
+    <file name="002_14.png" crc="4053950209" ref="index"/>
+    <file name="002_06.png" crc="4103069994" ref="index"/>
+    <file name="02_03.png" crc="3939551328" ref="index"/>
+    <file name="02_06.png" crc="302187659" ref="index"/>
+    <file name="02_09.png" crc="4135910968" ref="index"/>
+    <file name="02_11.png" crc="3926662100" ref="index"/>
+    <file name="02_15.png" crc="263092315" ref="index"/>
+    <file name="02_17.png" crc="3768577434" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4012328714" mt="1389678418850" redirect="true"/>
+</manifest>

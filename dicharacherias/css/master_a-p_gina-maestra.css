@@ -1,0 +1,118 @@
+#u1544
+{
+	opacity: 0.11;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=11)";
+	filter: alpha(opacity=11);
+	position: relative;
+}
+
+#u5509
+{
+	opacity: 0.17;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=17)";
+	filter: alpha(opacity=17);
+	position: relative;
+}
+
+#u2102
+{
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	position: relative;
+	background: transparent url("../images/d06-u2102-fr.png") repeat left top;
+	background-size: 1800px 400px;
+}
+
+#u2102_img
+{
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+
+#u3329
+{
+	opacity: 0.56;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=56.00000000000001)";
+	filter: alpha(opacity=56.00000000000001);
+	position: relative;
+}
+
+#u4289
+{
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	position: relative;
+}
+
+#u307,#u3870,#u3454
+{
+	position: relative;
+}
+
+#u1757
+{
+	border-style: none;
+	border-color: transparent;
+	position: relative;
+	background: transparent url("../images/d18_03-u1757-fr.png") repeat left top;
+	background-size: 2048px 83px;
+}
+
+#u1758
+{
+	border-style: none;
+	border-color: transparent;
+	position: relative;
+	background: transparent url("../images/d18_02-u1758-fr.png") repeat left top;
+	background-size: 2048px 83px;
+}
+
+#u1759
+{
+	border-style: none;
+	border-color: transparent;
+	position: relative;
+	background: transparent url("../images/d18_01.png") repeat left top;
+	background-size: 2048px 83px;
+}
+
+#u6818
+{
+	opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	position: relative;
+}
+
+#u6891
+{
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	position: relative;
+}
+
+#u6978
+{
+	opacity: 0.15;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+	filter: alpha(opacity=15);
+	position: relative;
+}
+
+#u6983
+{
+	opacity: 0.15;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+	filter: alpha(opacity=15);
+	-webkit-transform: rotate(183deg);
+	-moz-transform: rotate(183deg);
+	-ms-transform: rotate(183deg);
+	-o-transform: rotate(183deg);
+	transform: rotate(183deg);
+	position: relative;
+}
+

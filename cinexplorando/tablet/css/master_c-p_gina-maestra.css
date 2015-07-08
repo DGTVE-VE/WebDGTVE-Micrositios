@@ -1,0 +1,265 @@
+#u12775:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u5061:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u7065
+{
+	background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #CAC8C8));
+	background: -webkit-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: -moz-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: -ms-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: -o-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: linear-gradient(to bottom,#FFFFFF ,#CAC8C8 100%);
+	filter: alpha(opacity=98) progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFFFF, endColorstr=#FFCAC8C8, GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=98) progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFCAC8C8', GradientType=0)";
+	border-style: solid;
+	border-color: #B6B6B6;
+	opacity: 0.98;
+	border-width: 0px 0px 1px;
+}
+
+#u6999-4
+{
+	text-align: center;
+	color: #7F7F7F;
+	font-size: 12px;
+	position: relative;
+}
+
+#u5048
+{
+	vertical-align: top;
+	background: url("../../images/u5048.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u5048:hover
+{
+	background: url("../../images/u5048-r.png") no-repeat 0px 0px;
+}
+
+#u5048:active
+{
+	background: url("../../images/u5048-m.png") no-repeat 3px 3px;
+}
+
+#u5050
+{
+	vertical-align: top;
+	background: url("../../images/u5050.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u5050:hover
+{
+	background: url("../../images/u5050-r.png") no-repeat 0px 0px;
+}
+
+#u5050:active
+{
+	background: url("../../images/u5050-m.png") no-repeat 0px 0px;
+}
+
+#u5052
+{
+	vertical-align: top;
+	background: url("../../images/u5052.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u5052:hover
+{
+	background: url("../../images/u5052-r.png") no-repeat 0px 0px;
+}
+
+#u5052:active
+{
+	background: url("../../images/u5052-m.png") no-repeat 3px 3px;
+}
+
+#u5056-5
+{
+	background-color: transparent;
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+}
+
+#u5057-5,#u5058-5,#u5059-5,#u5060-5
+{
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+}
+
+#u5056-3,#u5057-3,#u5058-3,#u5059-3,#u5060-3
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u5056-3  span,#u5057-3  span,#u5058-3  span,#u5059-3  span,#u5060-3  span /* line-height set on spans of mixed font sized paras */
+{
+	line-height: 1.2;
+}
+
+#u5056-2,#u5057-2,#u5058-2,#u5059-2,#u5060-2
+{
+	font-size: 13px;
+}
+
+#u5061:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u5061,#u5062
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u5062:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u5062:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u5064
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u5064:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u5064:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u5065
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u5065:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u5065:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u5061.MuseLinkActive,#u12775.MuseLinkActive,#u5062.MuseLinkActive,#u5064.MuseLinkActive,#u5065.MuseLinkActive
+{
+	background-color: transparent;
+}
+
+#u5066,#u5067,#u5068,#u5069
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+}
+
+#u5054
+{
+	vertical-align: top;
+	background: url("../../images/u5054.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u5054:hover
+{
+	background: url("../../images/u5054-r.png") no-repeat 0px 0px;
+}
+
+#u5054:active
+{
+	background: url("../../images/u5054-m.png") no-repeat 3px 3px;
+}
+
+#u7010,#u6997,#u5104,#u7066,#u7067,#u7069
+{
+	position: relative;
+}
+
+#u10754
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #7F7F7F;
+	-moz-border-radius: 0px 0px 0px 10px ;
+	-webkit-border-radius: 0px 0px 0px 10px ;
+	-khtml-border-radius: 0px 0px 0px 10px ;
+	border-radius: 0px 0px 0px 10px ;
+	position: relative;
+}
+
+#u10755-4
+{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	position: relative;
+}
+
+#u12775
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u12775:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+

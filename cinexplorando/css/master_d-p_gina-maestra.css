@@ -1,0 +1,224 @@
+#u9719:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u13154:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u9716:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u9720:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u9717:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u13154.MuseLinkActive,#u9719.MuseLinkActive,#u9716.MuseLinkActive,#u9720.MuseLinkActive,#u9717.MuseLinkActive
+{
+	background-color: transparent;
+}
+
+#u9699_clip
+{
+	overflow: hidden;
+}
+
+#u9699_img
+{
+	opacity: 0.98;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=98)";
+	filter: alpha(opacity=98);
+}
+
+#u9693,#u9697,#u9695,#u9699,#u9701
+{
+	position: fixed;
+}
+
+#u9689-4
+{
+	color: #4D4C4C;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+}
+
+#u9709
+{
+	vertical-align: top;
+	background: url("../images/u9709.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u9709:hover
+{
+	background: url("../images/u9709-r.png") no-repeat 0px 0px;
+}
+
+#u9709:active
+{
+	background: url("../images/u9709-m.png") no-repeat 3px 3px;
+}
+
+#u9716:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u9711-5
+{
+	background-color: transparent;
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: fixed;
+}
+
+#u9717:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u13154:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u9719:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u9721,#u9722,#u9723,#u9724
+{
+	display: block;
+	vertical-align: top;
+	position: fixed;
+}
+
+#u9716,#u9717,#u13154,#u9719,#u9720
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+}
+
+#u9720:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u9712-5,#u9713-5,#u9714-5,#u9715-5
+{
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: fixed;
+}
+
+#u9711-3,#u9712-3,#u9713-3,#u9714-3,#u9715-3
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u9711-3  span,#u9712-3  span,#u9713-3  span,#u9714-3  span,#u9715-3  span /* line-height set on spans of mixed font sized paras */
+{
+	line-height: 1.2;
+}
+
+#u9711-2,#u9712-2,#u9713-2,#u9714-2,#u9715-2
+{
+	font-size: 13px;
+}
+
+#u9707
+{
+	vertical-align: top;
+	background: url("../images/u9707.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u9707:hover
+{
+	background: url("../images/u9707-r.png") no-repeat 0px 0px;
+}
+
+#u9707:active
+{
+	background: url("../images/u9707-m.png") no-repeat 3px 3px;
+}
+
+#u9705
+{
+	vertical-align: top;
+	background: url("../images/u9705.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u9705:hover
+{
+	background: url("../images/u9705-r.png") no-repeat 0px 0px;
+}
+
+#u9705:active
+{
+	background: url("../images/u9705-m.png") no-repeat 0px 0px;
+}
+
+#u9703
+{
+	vertical-align: top;
+	background: url("../images/u9703.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u9703:hover
+{
+	background: url("../images/u9703-r.png") no-repeat 0px 0px;
+}
+
+#u9703:active
+{
+	background: url("../images/u9703-m.png") no-repeat 3px 3px;
+}
+
+#u9725-4
+{
+	text-align: center;
+	color: #7F7F7F;
+	font-size: 8px;
+	position: fixed;
+}
+

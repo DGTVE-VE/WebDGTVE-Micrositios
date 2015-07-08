@@ -1,0 +1,243 @@
+#u5009:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u12774:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u7064
+{
+	background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #CAC8C8));
+	background: -webkit-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: -moz-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: -ms-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: -o-linear-gradient(top,#FFFFFF ,#CAC8C8 100%);
+	background: linear-gradient(to bottom,#FFFFFF ,#CAC8C8 100%);
+	filter: alpha(opacity=98) progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFFFF, endColorstr=#FFCAC8C8, GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=98) progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFCAC8C8', GradientType=0)";
+	border-style: solid;
+	border-color: #B6B6B6;
+	opacity: 0.98;
+	border-width: 0px 0px 1px;
+}
+
+#u4996
+{
+	vertical-align: top;
+	background: url("../../images/u4996.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u4996:hover
+{
+	background: url("../../images/u4996-r.png") no-repeat 0px 0px;
+}
+
+#u4996:active
+{
+	background: url("../../images/u4996-m.png") no-repeat 3px 3px;
+}
+
+#u4998
+{
+	vertical-align: top;
+	background: url("../../images/u4998.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u4998:hover
+{
+	background: url("../../images/u4998-r.png") no-repeat 0px 0px;
+}
+
+#u4998:active
+{
+	background: url("../../images/u4998-m.png") no-repeat 0px 0px;
+}
+
+#u5000
+{
+	vertical-align: top;
+	background: url("../../images/u5000.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u5000:hover
+{
+	background: url("../../images/u5000-r.png") no-repeat 0px 0px;
+}
+
+#u5000:active
+{
+	background: url("../../images/u5000-m.png") no-repeat 3px 3px;
+}
+
+#u5004-5
+{
+	background-color: transparent;
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+}
+
+#u5005-5,#u5006-5,#u5007-5,#u5008-5
+{
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: relative;
+}
+
+#u5004-3,#u5005-3,#u5006-3,#u5007-3,#u5008-3
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u5004-3  span,#u5005-3  span,#u5006-3  span,#u5007-3  span,#u5008-3  span /* line-height set on spans of mixed font sized paras */
+{
+	line-height: 1.2;
+}
+
+#u5004-2,#u5005-2,#u5006-2,#u5007-2,#u5008-2
+{
+	font-size: 13px;
+}
+
+#u5009:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u5009,#u5010
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u5010:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u5010:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u5012
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u5012:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u5012:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u5013
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u5013:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u5013:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u5009.MuseLinkActive,#u12774.MuseLinkActive,#u5010.MuseLinkActive,#u5012.MuseLinkActive,#u5013.MuseLinkActive
+{
+	background-color: transparent;
+}
+
+#u5014,#u5015,#u5016,#u5017
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+}
+
+#u5002
+{
+	vertical-align: top;
+	background: url("../../images/u5002.png") no-repeat 9px 9px;
+	position: relative;
+}
+
+#u5002:hover
+{
+	background: url("../../images/u5002-r.png") no-repeat 0px 0px;
+}
+
+#u5002:active
+{
+	background: url("../../images/u5002-m.png") no-repeat 3px 3px;
+}
+
+#u6995-4
+{
+	text-align: center;
+	color: #7F7F7F;
+	font-size: 12px;
+	position: relative;
+}
+
+#u5111,#u7007,#u6992,#u5088,#u5021,#u5019
+{
+	position: relative;
+}
+
+#u12774
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u12774:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+

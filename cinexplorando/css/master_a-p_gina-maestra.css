@@ -1,0 +1,203 @@
+#u4248:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4250:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4249:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4251:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4247.MuseLinkActive,#u4250.MuseLinkActive,#u4251.MuseLinkActive,#u4248.MuseLinkActive,#u4249.MuseLinkActive
+{
+	background-color: transparent;
+}
+
+#u4247:active
+{
+	background-color: #E5E5E5;
+	background-color: rgba(127, 127, 127, 0.2);
+	-pie-background: rgba(127, 127, 127, 0.2);
+}
+
+#u4240
+{
+	vertical-align: top;
+	background: url("../images/u4240.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u4240:hover
+{
+	background: url("../images/u4240-r.png") no-repeat 0px 0px;
+}
+
+#u4240:active
+{
+	background: url("../images/u4240-m.png") no-repeat 3px 3px;
+}
+
+#u4247:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4242-5
+{
+	background-color: transparent;
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: fixed;
+}
+
+#u4256-4
+{
+	text-align: center;
+	color: #7F7F7F;
+	font-size: 8px;
+	position: fixed;
+}
+
+#u4248:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4249:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4250:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4247,#u4248,#u4249,#u4250,#u4251
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+}
+
+#u4251:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	-pie-background: rgba(255, 255, 255, 0.2);
+}
+
+#u4252,#u4253,#u4254,#u4255
+{
+	display: block;
+	vertical-align: top;
+	position: fixed;
+}
+
+#u4243-5,#u4244-5,#u4245-5,#u4246-5
+{
+	color: #3C3C3C;
+	font-size: 15px;
+	font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+	position: fixed;
+}
+
+#u4242-3,#u4243-3,#u4244-3,#u4245-3,#u4246-3
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u4242-3  span,#u4243-3  span,#u4244-3  span,#u4245-3  span,#u4246-3  span /* line-height set on spans of mixed font sized paras */
+{
+	line-height: 1.2;
+}
+
+#u4242-2,#u4243-2,#u4244-2,#u4245-2,#u4246-2
+{
+	font-size: 13px;
+}
+
+#u7043,#u477,#u475
+{
+	position: fixed;
+}
+
+#u4238
+{
+	vertical-align: top;
+	background: url("../images/u4238.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u4238:hover
+{
+	background: url("../images/u4238-r.png") no-repeat 0px 0px;
+}
+
+#u4238:active
+{
+	background: url("../images/u4238-m.png") no-repeat 3px 3px;
+}
+
+#u4236
+{
+	vertical-align: top;
+	background: url("../images/u4236.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u4236:hover
+{
+	background: url("../images/u4236-r.png") no-repeat 0px 0px;
+}
+
+#u4236:active
+{
+	background: url("../images/u4236-m.png") no-repeat 0px 0px;
+}
+
+#u4234
+{
+	vertical-align: top;
+	background: url("../images/u4234.png") no-repeat 9px 9px;
+	position: fixed;
+}
+
+#u4234:hover
+{
+	background: url("../images/u4234-r.png") no-repeat 0px 0px;
+}
+
+#u4234:active
+{
+	background: url("../images/u4234-m.png") no-repeat 3px 3px;
+}
+

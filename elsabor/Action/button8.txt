@@ -1,0 +1,11 @@
+// Action script...
+
+on (rollOver)
+{
+    gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    gotoAndPlay(9);
+}

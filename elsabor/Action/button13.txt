@@ -1,0 +1,13 @@
+// Action script...
+
+on (release)
+{
+    if (_root.spp == "sp5")
+    {
+    }
+    else
+    {
+        _root.spp = "sp5";
+        _root.sp.play();
+    } // end if
+}

@@ -1,0 +1,7 @@
+// Action script...
+
+on (press)
+{
+    gotoAndStop(2);
+    _root.globalsound.setVolume(0);
+}

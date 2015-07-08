@@ -1,0 +1,10 @@
+// Action script...
+
+on (release)
+{
+    if (!_root.a)
+    {
+        _root.spp = "sp5";
+        _root.gotoAndPlay("sp_start");
+    } // end if
+}

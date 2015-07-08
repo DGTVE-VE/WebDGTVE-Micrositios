@@ -1,0 +1,7 @@
+// Action script...
+
+on (release)
+{
+    _root.ph.play();
+    gotoAndPlay(2);
+}

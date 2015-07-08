@@ -1,0 +1,233 @@
+// Action script...
+
+// [onClipEvent of sprite 1 in frame 1]
+onClipEvent (load)
+{
+    this._xscale = 0;
+    total = _root.getBytesTotal();
+}
+
+onClipEvent (enterFrame)
+{
+    loaded = _root.getBytesLoaded();
+    percent = int(loaded / total * 100);
+    _root.txt = percent + "%";
+    this._xscale = percent;
+    if (loaded == total)
+    {
+        _root.gotoAndPlay(2);
+    } // end if
+}
+
+// [onClipEvent of sprite 2 in frame 23]
+on (rollOver)
+{
+    this.gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    this.gotoAndPlay("go");
+}
+
+on (release)
+{
+    if (_root.spp = "sp0")
+    {
+    }
+    else
+    {
+        _root.gotoAndPlay("start");
+        _root.spp = "sp0";
+    } // end if
+}
+
+// [onClipEvent of sprite 6 in frame 25]
+on (rollOver)
+{
+    this.gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    this.gotoAndPlay("go");
+}
+
+on (release)
+{
+    if (!_root.a)
+    {
+        _root.spp = "sp1";
+        _root.gotoAndPlay("sp_start");
+    } // end if
+}
+
+// [onClipEvent of sprite 7 in frame 27]
+on (rollOver)
+{
+    this.gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    this.gotoAndPlay("go");
+}
+
+on (release)
+{
+    if (!_root.a)
+    {
+        _root.spp = "sp2";
+        _root.gotoAndPlay("sp_start");
+    } // end if
+}
+
+// [onClipEvent of sprite 8 in frame 28]
+on (rollOver)
+{
+    this.gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    this.gotoAndPlay("go");
+}
+
+on (release)
+{
+    if (!_root.a)
+    {
+        _root.spp = "sp3";
+        _root.gotoAndPlay("sp_start");
+    } // end if
+}
+
+// [onClipEvent of sprite 9 in frame 29]
+on (rollOver)
+{
+    this.gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    this.gotoAndPlay("go");
+}
+
+on (release)
+{
+    if (!_root.a)
+    {
+        _root.spp = "sp4";
+        _root.gotoAndPlay("sp_start");
+    } // end if
+}
+
+// [onClipEvent of sprite 6 in frame 50]
+on (rollOver)
+{
+    this.gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    this.gotoAndPlay("go");
+}
+
+on (release)
+{
+    if (_root.spp == "sp1")
+    {
+    }
+    else
+    {
+        _root.spp = "sp1";
+        _root.sp.play();
+    } // end if
+}
+
+// [onClipEvent of sprite 7 in frame 50]
+on (rollOver)
+{
+    this.gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    this.gotoAndPlay("go");
+}
+
+on (release)
+{
+    if (_root.spp == "sp2")
+    {
+    }
+    else
+    {
+        _root.spp = "sp2";
+        _root.sp.play();
+    } // end if
+}
+
+// [onClipEvent of sprite 8 in frame 50]
+on (rollOver)
+{
+    this.gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    this.gotoAndPlay("go");
+}
+
+on (release)
+{
+    if (_root.spp == "sp3")
+    {
+    }
+    else
+    {
+        _root.spp = "sp3";
+        _root.sp.play();
+    } // end if
+}
+
+// [onClipEvent of sprite 9 in frame 50]
+on (rollOver)
+{
+    this.gotoAndPlay(2);
+}
+
+on (rollOut, dragOut)
+{
+    this.gotoAndPlay("go");
+}
+
+on (release)
+{
+    if (_root.spp == "sp4")
+    {
+    }
+    else
+    {
+        _root.spp = "sp4";
+        _root.sp.play();
+    } // end if
+}
+
+// [Action in Frame 1]
+stop();
+
+// [Action in Frame 2]
+_root.globalsound = new Sound();
+
+// [Action in Frame 31]
+stop();
+
+// [Action in Frame 36]
+a = false;
+stop();
+
+// [Action in Frame 50]
+_root.sp.gotoAndPlay(_root.spp);
+a = true;
+stop();

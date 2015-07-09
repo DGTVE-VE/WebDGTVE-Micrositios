@@ -1,0 +1,56 @@
+<manifest alg="2" build="704" opt="true" iceEnabled="true">
+  <folder name="assets">
+    <file name="requisitos.pdf" crc="3816945700" mt="1374773642000"/>
+    <file name="expedicion.pdf" crc="69461741" mt="1374773642000"/>
+    <file name="certificacion.pdf" crc="4087620108" mt="1374773642000"/>
+    <file name="provisional.xls" crc="4057157134" mt="1374773642000"/>
+    <file name="solicitud_locutor.xlsx" crc="3828657375" mt="1374773642000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="3837790900"/>
+    <file name="master_a-p_gina-maestra.css" crc="4079817187" ref="index:¿quien:formatos:requisitos"/>
+    <file name="index.css" crc="4015608278" ref="index"/>
+    <file name="_quien.css" crc="3925262583" ref="¿quien"/>
+    <file name="formatos.css" crc="469297002" ref="formatos"/>
+    <file name="requisitos.css" crc="100954938" ref="requisitos"/>
+    <file name="infografia.css" crc="234002965" ref="infografia"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:¿quien:requisitos:formatos:infografia"/>
+    <file name="museutils.js" crc="3992981318" ref="index:¿quien:requisitos:formatos:infografia"/>
+    <file name="pie.js" crc="3827607177" ref="index:¿quien:requisitos:formatos:infografia"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="infografia"/>
+  </folder>
+  <folder name="images">
+    <file name="metal-texture.jpg" crc="342377502" ref="index:¿quien:requisitos:formatos:infografia"/>
+    <file name="base.jpg" crc="177314951" ref="index:¿quien:requisitos:formatos"/>
+    <file name="certific-u117.png" crc="292876306" ref="index:¿quien:requisitos:formatos"/>
+    <file name="menu.png" crc="4048416075" ref="index:¿quien:requisitos:formatos"/>
+    <file name="u138-5.png" crc="39334540" ref="index:¿quien:requisitos:formatos"/>
+    <file name="u141-6.png" crc="497164777" ref="index:¿quien:requisitos:formatos"/>
+    <file name="u143-5.png" crc="4267006976" ref="index:¿quien:requisitos:formatos"/>
+    <file name="u145-5.png" crc="485443113" ref="index:¿quien:requisitos:formatos"/>
+    <file name="u152-4.png" crc="418175433" ref="index:¿quien:requisitos:formatos"/>
+    <file name="hlogo_02.png" crc="4067862978" ref="index:¿quien:requisitos:formatos"/>
+    <file name="file_accept.png" crc="3823760920" ref="index"/>
+    <file name="u176-5.png" crc="3935915774" ref="index"/>
+    <file name="note_download.png" crc="238846424" ref="requisitos"/>
+    <file name="comment_search.png" crc="3812482575" ref="¿quien"/>
+    <file name="file_edit.png" crc="399105667" ref="requisitos"/>
+    <file name="printer_add.png" crc="248092097" ref="formatos"/>
+    <file name="excel.png" crc="4157002149" ref="formatos"/>
+    <file name="u243-6.png" crc="107604814" ref="¿quien"/>
+    <file name="u269-6.png" crc="136049031" ref="requisitos"/>
+    <file name="u292-7.png" crc="3910319310" ref="formatos"/>
+    <file name="0801_i01.png" crc="101772869" ref="infografia"/>
+    <file name="arrow_undo.png" crc="3900466129" ref="infografia"/>
+    <file name="arrow_up.png" crc="4227106311" ref="infografia"/>
+    <file name="note_edit.png" crc="3903584195" ref="index"/>
+    <file name="0801_i02.png" crc="4104237937" ref="infografia"/>
+  </folder>
+  <file name="index.html" crc="109875954" mt="1375722680312"/>
+  <file name="¿quien.html" crc="116423234" mt="1375721186969"/>
+  <file name="requisitos.html" crc="4109086455" mt="1375721186973"/>
+  <file name="formatos.html" crc="63950710" mt="1375721186977"/>
+  <file name="infografia.html" crc="423398381" mt="1375730676239"/>
+</manifest>

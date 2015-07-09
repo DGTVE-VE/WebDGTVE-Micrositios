@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<videos>
+
+	<video>
+		<title>Telesecundaria</title>
+		<description><![CDATA[<p>Por canal abierto</span></p>]]></description>
+		<url>videos/telesecundaria.flv</url>
+		<thumbnail>thumbnails/04.jpg</thumbnail>
+		<duration>00:32</duration>
+	</video>
+	<video>
+		<title>Español</title>
+		<description><![CDATA[<p>Desarrollar prácticas sociales del lenguaje e integrar a los alumnos en la cultura escrita.</span></p>]]></description>
+		<url>videos/espanol.flv</url>
+		<thumbnail>thumbnails/02.jpg</thumbnail>
+		<duration>01:01</duration>
+	</video>
+	<video>
+		<title>Biología</title>
+		<description>Consolidar la formación científica básica del alumno, ayudándoles a ejercer la curiosidad, la crítica y el escepticismo; a investigar, opinar, decidir y actuar. <![CDATA[<p></span></p>]]></description>
+		<url>videos/biologia.flv</url>
+		<thumbnail>thumbnails/01.jpg</thumbnail>
+		<duration>00:53</duration>
+	</video>
+	<video>
+		<title>Geografía</title>
+		<description><![CDATA[<p>Comprender los procesos que transforman el espacio geográfico, mediante el análisis del desarrollo sustentable, la dinámica de la población, la interdependencia económica, etc.</span></p>]]></description>
+		<url>videos/geografia.flv</url>
+		<thumbnail>thumbnails/03.jpg</thumbnail>
+		<duration>01:10</duration>
+	</video>
+	
+
+
+
+</videos>

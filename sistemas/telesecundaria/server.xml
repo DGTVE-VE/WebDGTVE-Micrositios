@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:endavo="http://developer.endavomedia.com/mrss/" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Endavo Media Test MRSS</title>
+    <link>http://www.endavomedia.com/support</link>
+    <description></description>
+    <generator>EMMS</generator>
+    <item>
+      <title>Ciencias III</title>
+      <description>Bloque 1 Secuencia 1</description>
+      <guid nil="false">c2d7798091f3d0ce8d25559970263dcb</guid>
+      <pubDate>Mon, 17 Jan 2011 17:29:59 EST</pubDate>
+      <media:group>
+        <media:content duration="00:13:01" type="video/mp4" url="http://televisioneducativa.gob.mx/micrositios/sistemas/telesecundaria/videos/d3/vid/f455306.mp4"></media:content>
+        <media:title>Enfasis en Quimica</media:title>
+        <media:description>Test description</media:description>
+        <media:category>HBO</media:category>
+        <media:keywords>ciencias, quimica</media:keywords>
+        <media:thumbnail height="161" url="http://dgtve-staging.crawfordmedia.com/bundles/endavoenhance/images/hlogo_02.png" width="237" />
+        <endavo:stillImage height="161" url="http://media1.endavomedia.com/11296/thumbs/thumb_93464_big_1.jpg" width="237" />
+        <endavo:posterImage url="http://dgtve-staging.crawfordmedia.com/bundles/endavoenhance/images/hlogo_02.png" />
+        <endavo:smallPosterImage url="http://dgtve-staging.crawfordmedia.com/bundles/endavoenhance/images/hlogo_02.png" />
+      </media:group>
+    </item>
+    <item>
+      <title>Ciencias III</title>
+      <description>Bloque 1 Secuencia 2</description>
+      <guid isPermaLink="false">0c347d69ecca08807cf66b3d63362ff4</guid>
+      <pubDate>Thu, 30 Dec 2010 16:25:01 EST</pubDate>
+      <media:group>
+        <media:content duration="00:14:45" type="video/mp4" url="http://televisioneducativa.gob.mx/micrositios/sistemas/telesecundaria/videos/d3/vid/f455310.mp4"></media:content>
+        <media:title>Enfasis en Quimica II</media:title>
+        <media:description>Test description 2</media:description>
+        <media:category>HBO</media:category>
+        <media:keywords>ciencias, quimica</media:keywords>
+        <media:thumbnail height="100" url="http://media1.endavomedia.com/11296/thumbs/thumb_92045_1.jpg" width="100" />
+        <endavo:stillImage height="100" url="http://media1.endavomedia.com/11296/thumbs/thumb_92045_big_1.jpg" width="100" />
+        <endavo:posterImage url="http://player.voiceamerica.tv/locallib/images/blackthumb.gif" />
+        <endavo:smallPosterImage url="http://player.voiceamerica.tv/locallib/images/blackthumb.gif" />
+      </media:group>
+    </item>
+  </channel>
+</rss>

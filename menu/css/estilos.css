@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+ul.circulos3 { 
+position: relative;
+width: 100%;
+margin: 20px auto; 
+text-align: center;
+list-style-type: none; 
+font: bold 14px arial; 
+} 
+ul.circulos3 li { 
+display: inline;
+margin: 0;
+padding: 0;
+} 
+ul.circulos3 li a {
+position: absolute;
+opacity: 0;
+display: inline-block;
+left: 50%;
+margin-left: -50px;
+text-decoration: none; 
+color: white; 
+background: darkblue; 
+width:100px; 
+height:100px; 
+-o-border-radius: 200px;
+-moz-border-radius: 200px; 
+-webkit-border-radius: 200px; 
+-ms-border-radius: 200px;
+border-radius: 200px;
+transition: all .8s ease-out;
+}
+ul.circulos3 li:last-of-type a {
+opacity: 1;
+} 
+ul.circulos3 a span { 
+position: relative;
+top:40%;
+padding: 5px;
+text-align: center;
+} 
+ul.circulos3:hover li a {
+color: black;
+background: blue;
+opacity: 1;
+transition: all .8s ease-out;
+} 
+ul.circulos3:hover li:nth-of-type(1) a {
+margin-left: -250px;
+}
+ul.circulos3:hover li:nth-of-type(2) a {
+margin-left: -150px;
+}
+ul.circulos3:hover li:nth-of-type(3) a {
+margin-left: -50px;
+}
+ul.circulos3:hover li:nth-of-type(4) a {
+margin-left: 50px;
+}
+ul.circulos3:hover li:nth-of-type(5) a {
+margin-left: 150px;
+}
+ul.circulos3:hover li:last-of-type a {
+opacity: 0;
+top: -1000px;
+}

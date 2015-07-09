@@ -1,0 +1,319 @@
+<?php
+/*
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+ *
+ * Copyright 2011 Oracle and/or its affiliates. All rights reserved.
+ *
+ * Oracle and Java are registered trademarks of Oracle and/or its affiliates.
+ * Other names may be trademarks of their respective owners.
+ *
+ * The contents of this file are subject to the terms of either the GNU
+ * General Public License Version 2 only ("GPL") or the Common
+ * Development and Distribution License("CDDL") (collectively, the
+ * "License"). You may not use this file except in compliance with the
+ * License. You can obtain a copy of the License at
+ * http://www.netbeans.org/cddl-gplv2.html
+ * or nbbuild/licenses/CDDL-GPL-2-CP. See the License for the
+ * specific language governing permissions and limitations under the
+ * License.  When distributing the software, include this License Header
+ * Notice in each file and include the License file at
+ * nbbuild/licenses/CDDL-GPL-2-CP.  Oracle designates this
+ * particular file as subject to the "Classpath" exception as provided
+ * by Oracle in the GPL Version 2 section of the License file that
+ * accompanied this code. If applicable, add the following below the
+ * License Header, with the fields enclosed by brackets [] replaced by
+ * your own identifying information:
+ * "Portions Copyrighted [year] [name of copyright owner]"
+ *
+ * If you wish your version of this file to be governed by only the CDDL
+ * or only the GPL Version 2, indicate your decision by adding
+ * "[Contributor] elects to include this software in this distribution
+ * under the [CDDL or GPL Version 2] license." If you do not indicate a
+ * single choice of license, a recipient has the option to distribute
+ * your version of this file under either the CDDL, the GPL Version 2 or
+ * to extend the choice of license to its licensees as provided above.
+ * However, if you add GPL Version 2 code and therefore, elected the GPL
+ * Version 2 license, then the option applies only if the new code is
+ * made subject to such option by the copyright holder.
+ *
+ * Contributor(s):
+ *
+ * Portions Copyrighted 2011 Sun Microsystems, Inc.
+ */
+
+//~ Template for add-edit.php
+// variables:
+//  $errors - validation errors
+//  $todo - submitted TODO
+//  $edit - true for EDIT, false for ADD
+
+function error_field($title, array $errors) {
+    foreach ($errors as $error) {
+        /* @var $error Error */
+        if ($error->getSource() == $title) {
+            return ' error-field';
+        }
+    }
+    return '';
+}
+
+/* @var $todo Todo */
+?>
+<h1>
+    <?php if ($edit): ?>
+        <?php echo Utils::escape($todo->getTitle()); ?>
+    <?php else: ?>
+        Registrar todos los campos
+    <?php endif; ?>
+</h1>
+
+<?php if (!empty($errors)): ?>
+    <ul class="errors">
+        <?php foreach ($errors as $error): ?>
+            <?php /* @var $error Error */ ?>
+            <li><?php echo $error->getMessage(); ?></li>
+        <?php endforeach; ?>
+    </ul>
+<?php endif; ?>
+
+<form action="#" method="post">
+    <fieldset>        
+            <table  style="width:100%">
+                <tr><td align="right">
+                        <div class="field">
+                            <label>Nombre : </label>                
+                            <input  name="todo[nombre]" type="text" value="<?php echo Utils::escape($todo->getNombre()); ?>"
+                                    class="text<?php echo error_field('nombre', $errors); ?>">
+                        </div>
+                    </td>                         
+                    <td align="right">
+                        <div class="field">
+                        <label>Genero : </label>
+                        <input name="todo[genero]"  type="radio" value="Masculino" class="radio<?php echo error_field('genero', $errors); ?>"
+                               <?php if(Utils::escape($todo->getGenero()=='Masculino')) echo "Checked" ?>> Masculino
+                        <input name="todo[genero]" type="radio" value="Femenino" class="radio<?php echo error_field('genero', $errors); ?>"
+                               <?php if(Utils::escape($todo->getGenero()=='Femenino')) echo "Checked" ?>> Femenino      
+                        </div>
+                    </td>
+                </tr>
+                <tr><td align="right">
+                        <div class="field">
+                            <label>Edad : </label>                
+                            <input name="todo[edad]" type="text" value="<?php echo Utils::escape($todo->getEdad()); ?>"
+                                   class="text<?php echo error_field('edad', $errors); ?>">
+                        </div>                        
+                    </td>                                
+                    <td align="right">
+                        <div class="field">
+                            <label for="region[region]">Región : </label>                            
+                            <select name="todo[region]" id="todo[region]" class="text<?php echo error_field('region', $errors); ?>">
+                                <option value="Africa" <?php if(Utils::escape($todo->getRegion()=='Africa')) echo "Selected" ?>>Africa</option>
+                                <option value="Asia" <?php if(Utils::escape($todo->getRegion()=='Asia')) echo "Selected" ?>>Asia</option>
+                                <option value="América del Norte" <?php if(Utils::escape($todo->getRegion()=='América del Norte')) echo "Selected" ?>>América del Norte</option>
+                                <option value="América del Sur" <?php if(Utils::escape($todo->getRegion()=='América del Sur')) echo "Selected" ?>>América del Sur</option>
+                                <option value="América Central" <?php if(Utils::escape($todo->getRegion()=='América Central')) echo "Selected" ?>>América Central</option>
+                                <option value="Europa del Este" <?php if(Utils::escape($todo->getRegion()=='Europa del Este')) echo "Selected" ?>>Europa del Este</option>
+                                <option value="Unión Europea" <?php if(Utils::escape($todo->getRegion()=='Unión Europea')) echo "Selected" ?>>Unión Europea</option>
+                                <option value="Medio Oriente" <?php if(Utils::escape($todo->getRegion()=='Medio Oriente')) echo "Selected" ?>>Medio Oriente</option>
+                                <option value="Caribe" <?php if(Utils::escape($todo->getRegion()=='Caribe')) echo "Selected" ?>>Caribe</option>
+                                <option value="Oceanía" <?php if(Utils::escape($todo->getRegion()=='Oceanía')) echo "Selected" ?>>Oceanía</option>
+                            </select>                            
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <div class="field">
+                            <label>Nacionalidad : </label>                
+                            <input name="todo[nacionalidad]" type="text" value="<?php echo Utils::escape($todo->getNacionalidad()); ?>"
+                                   class="text<?php echo error_field('nacionalidad', $errors); ?>">
+                        </div>
+                    </td>                                
+                    <td align="right">
+                        <div class="field">
+                            <label>Residencia : </label>                
+                            <input name="todo[residencia]" type="text" value="<?php echo Utils::escape($todo->getResidencia()); ?>"
+                                   class="text<?php echo error_field('residencia', $errors); ?>">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <div class="field">
+                            <label>Profesión : </label>                
+                            <input name="todo[profesion]" type="text" value="<?php echo Utils::escape($todo->getProfesion()); ?>"
+                                   class="text<?php echo error_field('profesion', $errors); ?>">
+                        </div>
+                    </td>
+                    <td align="right">
+                        <div class="field">
+                            <label>Email : </label>                
+                            <input name="todo[email]" type="text" value="<?php echo Utils::escape($todo->getEmail()); ?>"
+                                   class="text<?php echo error_field('email', $errors); ?>">
+                        </div>    
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <div class="field">
+                            <label>Estado Civil : </label>                
+                            <input name="todo[edoCivil]" type="text" value="<?php echo Utils::escape($todo->getEdoCivil()); ?>"
+                                   class="text<?php echo error_field('edoCivil', $errors); ?>">
+                        </div>
+                    </td>
+                    <td align="right">
+                        <div class="field">
+                            <label>Núm. de Hijos : </label>                
+                            <input name="todo[numHijos]" type="text" value="<?php echo Utils::escape($todo->getNumHijos()); ?>"
+                                   class="text<?php echo error_field('numHijos', $errors); ?>">
+                        </div>    
+                    </td>
+                </tr>                
+            </table><hr>
+            <ol>
+                <li><h3> Estoy de buen humor aunque tenga problemas.</h3>
+                    <h4><input name=preg1 type="radio" value="Si" <?php if (isset($data['preg1'])) if($data['preg1'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg1  type="radio" value="Aveces" <?php if (isset($data['preg1'])) if($data['preg1'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg1  type="radio" value="No" <?php if (isset($data['preg1'])) if($data['preg1'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Puedo tomar decisiones con facilidad.</h3>
+                    <h4><input name=preg2 type="radio" value="Si" <?php if (isset($data['preg2'])) if($data['preg2'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg2  type="radio" value="Aveces" <?php if (isset($data['preg2'])) if($data['preg2'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg2  type="radio" value="No" <?php if (isset($data['preg2'])) if($data['preg2'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Tengo confianza en mí mismo.</h3>
+                    <h4><input name=preg3 type="radio" value="Si" <?php if (isset($data['preg3'])) if($data['preg3'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg3  type="radio" value="Aveces" <?php if (isset($data['preg3'])) if($data['preg3'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg3  type="radio" value="No" <?php if (isset($data['preg3'])) if($data['preg3'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me esfuerzo por decir la verdad y que me entiendan.</h3>
+                    <h4><input name=preg4 type="radio" value="Si" <?php if (isset($data['preg4'])) if($data['preg4'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg4  type="radio" value="Aveces" <?php if (isset($data['preg4'])) if($data['preg4'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg4  type="radio" value="No" <?php if (isset($data['preg4'])) if($data['preg4'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me gusta buscar caminos nuevos para llegar a una meta.</h3>
+                    <h4><input name=preg5 type="radio" value="Si" <?php if (isset($data['preg5'])) if($data['preg5'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg5  type="radio" value="Aveces" <?php if (isset($data['preg5'])) if($data['preg5'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg5  type="radio" value="No" <?php if (isset($data['preg5'])) if($data['preg5'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me cuesta trabajo tomar mis propias decisiones.</h3>
+                    <h4><input name=preg6 type="radio" value="Si" <?php if (isset($data['preg6'])) if($data['preg6'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg6  type="radio" value="Aveces" <?php if (isset($data['preg6'])) if($data['preg6'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg6  type="radio" value="No" <?php if (isset($data['preg6'])) if($data['preg6'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Puedo resolver lo difícil.</h3>
+                    <h4><input name=preg7 type="radio" value="Si" <?php if (isset($data['preg7'])) if($data['preg7'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg7  type="radio" value="Aveces" <?php if (isset($data['preg7'])) if($data['preg7'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg7  type="radio" value="No" <?php if (isset($data['preg7'])) if($data['preg7'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Ante un problema difícil trato de estar tranquilo y busco resolver la situación.</h3>
+                    <h4><input name=preg8 type="radio" value="Si" <?php if (isset($data['preg8'])) if($data['preg8'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg8  type="radio" value="Aveces" <?php if (isset($data['preg8'])) if($data['preg8'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg8  type="radio" value="No" <?php if (isset($data['preg8'])) if($data['preg8'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Para lograr lo que quiero trato de no hacer trampa.</h3>
+                    <h4><input name=preg9 type="radio" value="Si" <?php if (isset($data['preg9'])) if($data['preg9'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg9  type="radio" value="Aveces" <?php if (isset($data['preg9'])) if($data['preg9'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg9  type="radio" value="No" <?php if (isset($data['preg9'])) if($data['preg9'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me recupero bien después de estar triste.</h3>
+                    <h4><input name=preg10 type="radio" value="Si" <?php if (isset($data['preg10'])) if($data['preg10'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg10  type="radio" value="Aveces" <?php if (isset($data['preg10'])) if($data['preg10'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg10  type="radio" value="No" <?php if (isset($data['preg10'])) if($data['preg10'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me gusta mi forma de ser.</h3>
+                    <h4><input name=preg11 type="radio" value="Si" <?php if (isset($data['preg11'])) if($data['preg11'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg11  type="radio" value="Aveces" <?php if (isset($data['preg11'])) if($data['preg11'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg11  type="radio" value="No" <?php if (isset($data['preg11'])) if($data['preg11'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Puedo buscar maneras de resolver mis problemas.</h3>
+                    <h4><input name=preg12 type="radio" value="Si" <?php if (isset($data['preg12'])) if($data['preg12'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg12  type="radio" value="Aveces" <?php if (isset($data['preg12'])) if($data['preg12'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg12  type="radio" value="No" <?php if (isset($data['preg12'])) if($data['preg12'] == "No") echo "Checked" ?>> No</h4></li><br>  
+                <li><h3> Prefiero que me digan lo que debo hacer.</h3>
+                    <h4><input name=preg13 type="radio" value="Si" <?php if (isset($data['preg13'])) if($data['preg13'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg13  type="radio" value="Aveces" <?php if (isset($data['preg13'])) if($data['preg13'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg13  type="radio" value="No" <?php if (isset($data['preg13'])) if($data['preg13'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me disgusta mi cuerpo y lo rechazo.</h3>
+                    <h4><input name=preg14 type="radio" value="Si" <?php if (isset($data['preg14'])) if($data['preg14'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg14  type="radio" value="Aveces" <?php if (isset($data['preg14'])) if($data['preg14'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg14  type="radio" value="No" <?php if (isset($data['preg14'])) if($data['preg14'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Puedo resolver problemas propios de mi edad.</h3>
+                    <h4><input name=preg15 type="radio" value="Si" <?php if (isset($data['preg15'])) if($data['preg15'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg15  type="radio" value="Aveces" <?php if (isset($data['preg15'])) if($data['preg15'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg15  type="radio" value="No" <?php if (isset($data['preg15'])) if($data['preg15'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me siento bien con los amigos y compañeros.</h3>
+                    <h4><input name=preg16 type="radio" value="Si" <?php if (isset($data['preg16'])) if($data['preg16'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg16  type="radio" value="Aveces" <?php if (isset($data['preg16'])) if($data['preg16'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg16  type="radio" value="No" <?php if (isset($data['preg16'])) if($data['preg16'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Aunque a veces deseo hacer algo prohibido, puedo evitarlo.</h3>
+                    <h4><input name=preg17 type="radio" value="Si" <?php if (isset($data['preg17'])) if($data['preg17'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg17  type="radio" value="Aveces" <?php if (isset($data['preg17'])) if($data['preg17'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg17  type="radio" value="No" <?php if (isset($data['preg17'])) if($data['preg17'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Yo soy capaz de trabajar en equipo.</h3>
+                    <h4><input name=preg18 type="radio" value="Si" <?php if (isset($data['preg18'])) if($data['preg18'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg18  type="radio" value="Aveces" <?php if (isset($data['preg18'])) if($data['preg18'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg18  type="radio" value="No" <?php if (isset($data['preg18'])) if($data['preg18'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Aunque tengo algunos defectos me acepto como soy.</h3>
+                    <h4><input name=preg19 type="radio" value="Si" <?php if (isset($data['preg19'])) if($data['preg19'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg19  type="radio" value="Aveces" <?php if (isset($data['preg19'])) if($data['preg19'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg19  type="radio" value="No" <?php if (isset($data['preg19'])) if($data['preg19'] == "NO") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Es difícil que me de por vencido cuando hay que terminar algo.</h3>
+                    <h4><input name=preg20 type="radio" value="Si" <?php if (isset($data['preg20'])) if($data['preg20'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg20  type="radio" value="Aveces" <?php if (isset($data['preg20'])) if($data['preg20'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg20  type="radio" value="No" <?php if (isset($data['preg20'])) if($data['preg20'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Cuando me piden que entregue mi tarea generalmente no la termino a tiempo.</h3>
+                    <h4><input name=preg21 type="radio" value="Si" <?php if (isset($data['preg21'])) if($data['preg21'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg21  type="radio" value="Aveces" <?php if (isset($data['preg21'])) if($data['preg21'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg21  type="radio" value="No" <?php if (isset($data['preg21'])) if($data['preg21'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Si hay algo que hacer, no me tienen que decir que lo haga.</h3>
+                    <h4><input name=preg22 type="radio" value="Si" <?php if (isset($data['preg22'])) if($data['preg22'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg22  type="radio" value="Aveces" <?php if (isset($data['preg22'])) if($data['preg22'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg22  type="radio" value="No" <?php if (isset($data['preg22'])) if($data['preg22'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Cuando hay problemas o dificultades, me cuesta trabajo resolverlos.</h3>
+                    <h4><input name=preg23 type="radio" value="Si" <?php if (isset($data['preg23'])) if($data['preg23'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg23  type="radio" value="Aveces" <?php if (isset($data['preg23'])) if($data['preg23'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg23  type="radio" value="No" <?php if (isset($data['preg23'])) if($data['preg23'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Cuando hay peligro no se prevenirlo.</h3>
+                    <h4><input name=preg24 type="radio" value="Si" <?php if (isset($data['preg24'])) if($data['preg24'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg24  type="radio" value="Aveces" <?php if (isset($data['preg24'])) if($data['preg24'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg24  type="radio" value="No" <?php if (isset($data['preg24'])) if($data['preg24'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me enojo sin lastimar a nadie.</h3>
+                    <h4><input name=preg25 type="radio" value="Si" <?php if (isset($data['preg25'])) if($data['preg25'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg25  type="radio" value="Aveces" <?php if (isset($data['preg25'])) if($data['preg25'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg25  type="radio" value="No" <?php if (isset($data['preg25'])) if($data['preg25'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me gusta que los demás tomen las decisiones por mi.</h3>
+                    <h4><input name=preg26 type="radio" value="Si" <?php if (isset($data['preg26'])) if($data['preg26'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg26  type="radio" value="Aveces" <?php if (isset($data['preg26'])) if($data['preg26'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg26  type="radio" value="No" <?php if (isset($data['preg26'])) if($data['preg26'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Manejo bien mis sentimientos cuando no obtengo lo que quiero.</h3>
+                    <h4><input name=preg27 type="radio" value="Si" <?php if (isset($data['preg27'])) if($data['preg27'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg27  type="radio" value="Aveces" <?php if (isset($data['preg27'])) if($data['preg27'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg27  type="radio" value="No" <?php if (isset($data['preg27'])) if($data['preg27'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Logro acostumbrarme a las situaciones que cambian y no me detengo ante los problemas.</h3>
+                    <h4><input name=preg28 type="radio" value="Si" <?php if (isset($data['preg28'])) if($data['preg28'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg28  type="radio" value="Aveces" <?php if (isset($data['preg28'])) if($data['preg28'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg28  type="radio" value="No" <?php if (isset($data['preg28'])) if($data['preg28'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me gusta ayudar cuando alguien está triste o tiene problemas.</h3>
+                    <h4><input name=preg29 type="radio" value="Si" <?php if (isset($data['preg29'])) if($data['preg29'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg29  type="radio" value="Aveces" <?php if (isset($data['preg29'])) if($data['preg29'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg29  type="radio" value="No" <?php if (isset($data['preg29'])) if($data['preg29'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Ayudo a mis compañeros cuando puedo.</h3>
+                    <h4><input name=preg30 type="radio" value="Si" <?php if (isset($data['preg30'])) if($data['preg30'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg30  type="radio" value="Aveces" <?php if (isset($data['preg30'])) if($data['preg30'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg30  type="radio" value="No" <?php if (isset($data['preg30'])) if($data['preg30'] == "No") echo "Checked" ?>> No</h4></li><br>   
+                <li><h3> Cuando una persona tiene algún defecto me burlo de ella.</h3>
+                    <h4><input name=preg31 type="radio" value="Si" <?php if (isset($data['preg31'])) if($data['preg31'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg31  type="radio" value="Aveces" <?php if (isset($data['preg31'])) if($data['preg31'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg31  type="radio" value="No" <?php if (isset($data['preg31'])) if($data['preg31'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me doy cuenta que cuando tengo problemas soy capaz de aprender y ser más fuerte.</h3>
+                    <h4><input name=preg32 type="radio" value="Si" <?php if (isset($data['preg32'])) if($data['preg32'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg32  type="radio" value="Aveces" <?php if (isset($data['preg32'])) if($data['preg32'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg32  type="radio" value="No" <?php if (isset($data['preg32'])) if($data['preg32'] == "No") echo "Checked" ?>> No</h4></li><br>
+                <li><h3> Me veo incapaz de lograr algo importante.</h3>
+                    <h4><input name=preg33 type="radio" value="Si" <?php if (isset($data['preg33'])) if($data['preg33'] == "Si") echo "Checked" ?>> Sí
+                        <input name=preg33  type="radio" value="Aveces" <?php if (isset($data['preg33'])) if($data['preg33'] == "Aveces") echo "Checked" ?>> A veces
+                        <input name=preg33  type="radio" value="No" <?php if (isset($data['preg33'])) if($data['preg33'] == "No") echo "Checked" ?>> No</h4></li>
+                <br/><br/>
+            </ol>
+            
+        <div class="field">
+            <label>Comentario:</label>
+            <textarea name="todo[comment]" cols="1" rows="1"
+                      class="<?php echo error_field('comment', $errors); ?>"><?php echo Utils::escape($todo->getComment()); ?></textarea>
+        </div>
+        <div class="wrapper">
+            <input type="submit" name="cancel" value="CANCELAR" class="submit" />
+            <input type="submit" name="save" value="<?php echo $edit ? 'EDITAR' : 'AGREGAR'; ?>" class="submit" />
+        </div>
+    </fieldset>
+</form>
